@@ -128,6 +128,7 @@ Assets = Liabilities + Equity
     * Each decrease shall be added as part of *Debit (Dr)*
   * For **Liabilities** & **Equity**
     * ![T-Account_Lib_Equity](Figures/T-Account4Libability_Equity.png)
+    * Because of `Assets=Liabilities+Owner’s Equity` ➡️ `Dr` is (`+⬆️`) on **Left Part (i.e, Assets)**, however `Cr` is (`+⬆️`) on **Right-Part (i.e., Liabilities, Owner-Equity, Revenues)**
     * It is clear the *Debit* and *Credit* is reversed in the **Liability & Equity** Families
     * So for example, **Equity-Credit** by: {*Capital*, *Revenues*}. **Equity-Debit** by: {*Withdrawals*, *Expenses*}
       * ![Equity-Credit-Debit](Figures/Equity_Credit-Debit.png)
@@ -143,7 +144,7 @@ Assets = Liabilities + Equity
   * Owner adds 1M as cash follow:
     * *Assets-Debit (Assets-Dr)* = 1M
     * *Equity-Credit (Equity-Cr)* = 1M
-    * Usually, you look from the **money giver prespective**, so he give 1M, so he has rights of 1M, so he credits his balance by 1M. Accordingly, the Assets is debit by 1M.
+    * Usually, you look from the **money giver prespective**, so *he give 1M, so he has rights of 1M, so he credits his balance by 1M. Accordingly, the Assets is debit by 1M*.
     * ![Owner-Cr-30K](Figures/Owner-Cr-30K.png)
       * we recorded the *Owner-Cr* by 30K, however the *System* automatically **Posted** the transaction in the *Assets-Cash* Account.
   * Recived 2M as Bank loan.
