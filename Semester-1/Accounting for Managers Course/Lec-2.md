@@ -1,4 +1,4 @@
-# Lec-1: Accounting for Managers
+# Lecture-2: Accounting for Managers
 >Dr.Maha Ramdan (email: maha.ramdan@eslsca.edu.eg)
 
 ## Main Equation for Any Business
@@ -15,10 +15,14 @@ Assets = Liabilities + Equity
   * Usually, Owners like to have a report called *Changes-in-Equity* based on all the transactions within the business.
 * **Liabilities الإلتزامات**:
   * simply how to finance the company in the first place.
+  * *money* or *obligations* that the business must pay **later**. The payment due date is still in the future, so the business still owes it, but does not need to pay it right now.
+  * **Liability_Account-payable**: a liability created when the business receives an *invoice* from a supplier, receives the goods or service, but will *pay later*.
+  * **Liability_Unearned-revenue**: an amount collected in advance from a customer for goods or services that have not been delivered yet. It is recorded as a liability until the business earns it. ➡️ to set this Liability, we need to deliver the service.
   * Ex: Some Universities/Service providers get money from the client in the first place as a financing option for the service and later to provide the service.
   * Another example is bank loan
 * **Assets**:
   * All the resources within the business is considered as *Assets*. In case Business Failure, then all of those *Assets* will be distributed across owners based on Shares.
+  * Whenever you buy any **Equipments**, it is considered as *Assets*, once we *start to use* it, then it becomes under *Expenses*.
 * Considering the **"Koshari Shop"** example that needs 5M as starting point:
   * Liabilities: 
     * Bank loan: 1M
@@ -34,6 +38,7 @@ Assets = Liabilities + Equity
   * `Liabilities > Assets - Equity` ➡️ Money Laundering
     * This means: `Liabilities>Liabilities`
     * Accordingly it means: [`records are wrong`, `one or more accounts are misstated, omitted, duplicated, or manipulated.`]
+* **Revenues - الإيرادات**
 * **Profit**
   * `Profit = Revenues - Expenses`
   * `Retained Capital/Earnings = Profit - Capital-Withdrawals`
@@ -45,6 +50,12 @@ Assets = Liabilities + Equity
    > Transaction: is each *Moneten-Event حدث مالي*
    > Bills, Water/electricity, Labour Salary...etc.
    ![ChartofAccounts](Figures/ChartofAccounts.png)
+  * **Definitions**
+    * **Accounts-Receivable (AR)**: Accounts to be received later on - هاتوا الفلوس اللى عليكو - Also is well-known as *clients-Accounts*.
+    * **Accounts-Payable (AP)**: I received an invoice for service that I shall pay later on.
+    * **Equipments**: It is also known as **Capital-Expenditures (CapEx)**. So it purchased Items and will make use of it while business-running.
+    * **Supplies**: The *Goods* that you purchase to use in the ***business-Operations*** (ex. Paper for invoices, pens,..etc.). However, *Goods* that you purchase to ***sell it later***, then it is called ***Inventory***
+    * **Inventory**: Those are the *Goods* that we Collect in our Warehouse as **`Assets`** (*purchasing* or *producing*). Whenever you ***sell*** / ***use*** those *inventory-Goods*, then it is seen as **`Expenses`**. So Inventory <span style="background-color: Green;">*without any touch*</span> is <span style="background-color: Green;">Assets</span>. However, Inventory <span style="background-color: Red;">which are used (Sell or Used in business-operations)</span> is converted into <span style="background-color: Red;">Expenses</span>.
   * Transactions shall be recorded in a way that keeps the **Balance-sheet** correctly balanced.
   * So operational cost shall not affect the balance between the `Assest = Liabilities + Equity`
   * Therefore this accounting system called "2-sides" input system ➡️ even if you want to steal 😉
@@ -59,7 +70,7 @@ Assets = Liabilities + Equity
     * There is something called *Account-payable* and *Notice-Payable* ➡️ almost the same and both are Liability. However, the *Notice-Payable* are kind of signed guarantee (cheque) that you signed for the service provider
   * Exmaple: sold 50K Koshari
     * *Assets-Cash* ⬆️ 50K ➡️ This is the value of the business that is called **"Revenues"** ➡️ This shall increase the **Equity** of the owners
-    * *Assets-Cash* ⬆️ = *Equity-Revenues* ⬆️
+      * *Assets-Cash* ⬆️ = *Equity-Revenues* ⬆️
   * Exmaple: Got a deal to provide Koshari with 100K but client will pay one month later
     * This is a *revenue* and this transaction shall be documented under *Equity-Revenues*
     * But we can't add this to the *cash* Balance because we don't receive it yet.
@@ -124,8 +135,10 @@ Assets = Liabilities + Equity
   * For **Assets**
     * `Left= Debit مدين` & `Right=Credit رصيد دائن`
     * ![T-Account](Figures/T-Account.png)
-    * Each increase shall be added as part of *Credit (Cr)*
-    * Each decrease shall be added as part of *Debit (Dr)*
+    * Each increase shall be added as part of *Debit (Dr)*
+      * تُعتبر زيادة الأصول في جانب المدين (Debit) لأنها تعني أن هذا المقدار من الأصول ممول من خلال الالتزامات و/أو حقوق الملكية، أي أن على المنشأة التزامًا مقابل هذا المبلغ.
+    * Each decrease shall be added as part of *Credit (Cr)*
+    * Consider that **Assets-Accounts** area called as **"Debit-Accounts"**, because we consume from those accounts. If "*Debit-Accounts*" are Zeros, then we can consume nothing.
   * For **Liabilities** & **Equity**
     * ![T-Account_Lib_Equity](Figures/T-Account4Libability_Equity.png)
     * Because of `Assets=Liabilities+Owner’s Equity` ➡️ `Dr` is (`+⬆️`) on **Left Part (i.e, Assets)**, however `Cr` is (`+⬆️`) on **Right-Part (i.e., Liabilities, Owner-Equity, Revenues)**
@@ -134,6 +147,7 @@ Assets = Liabilities + Equity
       * ![Equity-Credit-Debit](Figures/Equity_Credit-Debit.png)
       * ![Equity-Credit-Debit2](Figures/Equity_Credit-Debit2.png)
   * Assest = Liabilities + Equity ➡️ Debit / Credit view:
+    * ![ChartofAccounts](Figures/ChartofAccounts.png)
     * ![Debit-Credit-view](Figures/Debit-Credit-view.png)
     * *Owner-Equity* decreases by *Dr* in Equity side
     * *Owner-Equity* increases by *Cr* in Equity Side
@@ -163,3 +177,27 @@ Assets = Liabilities + Equity
     * *Assets-Cash_Dr* = 2.5K
     * *Assets-Supplies_Cr* = 2.5K
     * ![Supplies-Cr-Dr](Figures/Supplies-Cr-Dr.png)
+  * The *Trail Balance* so far till slide 32:
+    * ![Summarize-balance](Figures/Summarize_Transactions.png)
+    * Ex: Cash Account
+      * | Dr. | Cr.|
+        | --- | --- |
+        | 30,000 + 4,200 + 1,900 + 3,000 | 2,500 + 26,000 + .... + 700 |
+        | Balance  = 39100 - 34825 = 4,275 | |
+
+      * Ex: Assets 
+      * | Dr. | Cr. |
+        | --- | --- | 
+        | Dr. = Cash-Dr. <br> + Accounts_Receivable-Dr. <br> + Supplies-Dr. <br> + Prepaid_Insurance-Dr. <br> + Equipment-Dr. <br> |Cr. = Cash-Cr. <br> + Accounts_Receivable-Cr. <br> + Supplies-Cr. <br> + Prepaid_Insurance-Cr. <br> + Equipment-Cr. <br> |
+        | Balance = Dr. - Cr. = 42,395 | |
+      * Ex.: Liabilities_Accounts-Payable
+      * | Dr. | Cr. |
+        | --- | --- |
+        | 900 | 7,100 |
+        | | Balance = -Dr. + Cr. <br> =-900 + 7,100 <br> = 6,200 |
+      * Ex: Liabilities
+      * Liabilities = `(Dr."-"/Cr."+")`Accounts_Payable-Balance + `(Dr."-"/Cr."+")` Unearned_consulting_Revenue
+                    = `Cr.` 6,200 + `Cr.` 3,000 <br> = 9,200
+
+    * Therefore, **Trail-Balance** lists all the accounts at a certain point of time to ensure that Total `Debits (Dr.) = Credits (Cr.)`
+      * ![Trail-Balance](Figures/Trail_balance.png)
