@@ -26,6 +26,9 @@
     - Consider that the daily posting is done in the following sequence (**Debit** then **Credit**) ➡️ considering that each transaction has a double-effects (*Debit* & *Credit*)
   <br>
 
+  <details>
+  <summary>Table with colors</summary>
+
     | Date | Transaction | Debit | Credit | Comments |
     | --- | --- | --- | --- |---|
     | 1| Cash | $100,000 | | |
@@ -46,24 +49,24 @@
     | | Cash | $50,000| | |
     | | Inventory (COGS)<br>`Expenses` | $40,000|  | ***Cost-of-Goods-Sold (COGS)***<br>Here <span style="background-color:Yellow">`Inventory`</span> is converted to <span style="background-color:red"> **Expenses**</span><br>Consider that ***Taxes*** will be introduced from this step because  <span style="background-color:#58DA58">***Profit***</span> will be seen here <span style="background-color:#E5CF2F">(Profit = Revenue - Cost)</span>|
 
+  </details>
 
-
-| Date | Transaction | Debit | Credit | Comments |
-| --- | --- | --- | --- | --- |
-| 1 | Cash | $100,000 | | |
-| | Equity-Capital | | $100,000 | In case of multiple owners, then we shall have multiple accounts per owner |
-| 2 | Cash | $200,000 | | |
-| | Liability-Bank_Loan | | $200,000 | In case of multiple bank loans from different banks, then it shall be different accounts per bank |
-| 3 | Cash | $50,000 | | |
-| | Revenues | | $50,000 | |
-| 4 | Account-Receivable | $20,000 | | Credit-Service (On-account) means cash not collected, but service is delivered, so it is calculated as revenue. |
-| | Revenues | | $20,000 | |
-| 5 | Cash | $5,000 | | Get from Cash: `Credit Cash`<br>Collect Cash increase: `Debit Cash` |
-| | Account-Receivable | | $5,000 | Providing invoices means `Accounts-Receivable (AR)` increases by debit. Collecting cash decreases `AR` by credit. |
-| 6 | Equipment | $70,000 | | This is what we received, so we debit it.<br>Equipment is `Assets-CapEx` |
-| | Cash | | $70,000 | |
-| 7 | Inventory<br>`Assets` | $40,000 | | When purchasing goods that you will sell later, it is called `Inventory`, not `Supplies`. |
-| | Accounts-Payable | | $40,000 | |
-| 8 | Revenue | | $50,000 | Selling means you generate an invoice. Any invoice is recorded as revenue. |
-| | Cash | $50,000 | | |
-| | Inventory (COGS)<br>`Expenses` | $40,000 | | `Cost of Goods Sold (COGS)` means inventory is converted to expense. Profit appears here because `Profit = Revenue - Cost`. |
+    | Date | Transaction | Debit | Credit | Comments |
+    | --- | --- | --- | --- | --- |
+    | 1 | Cash | $100,000 | | |
+    | | Equity-Capital | | $100,000 | In case of multiple owners, then we shall have multiple accounts per owner |
+    | 2 | Cash | $200,000 | | |
+    | | Liability-Bank_Loan | | $200,000 | In case of multiple bank loans from different banks, then it shall be different accounts per bank |
+    | 3 | Cash | $50,000 | | |
+    | | Revenues | | $50,000 | |
+    | 4 | Account-Receivable | $20,000 | | Credit-Service (On-account) means cash not collected, but service is delivered, so it is calculated as revenue. |
+    | | Revenues | | $20,000 | |
+    | 5 | Cash | $5,000 | | Get from Cash: `Credit Cash`<br>Collect Cash increase: `Debit Cash` |
+    | | Account-Receivable | | $5,000 | Providing invoices means `Accounts-Receivable (AR)` increases by debit. Collecting cash decreases `AR` by credit. |
+    | 6 | Equipment | $70,000 | | This is what we received, so we debit it.<br>Equipment is `Assets-CapEx` |
+    | | Cash | | $70,000 | |
+    | 7 | Inventory<br>`Assets` | $40,000 | | When purchasing goods that you will sell later, it is called `Inventory`, not `Supplies`. |
+    | | Accounts-Payable | | $40,000 | |
+    | 8 | Revenue | | $50,000 | Selling means you generate an invoice. Any invoice is recorded as revenue. |
+    | | Cash | $50,000 | | |
+    | | Inventory (COGS)<br>`Expenses` | $40,000 | | `Cost of Goods Sold (COGS)` means inventory is converted to expense. Profit appears here because `Profit = Revenue - Cost`. |
