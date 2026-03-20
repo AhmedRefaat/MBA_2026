@@ -48,7 +48,7 @@
 
 
 
-    | Date | Transaction | Debit | Credit | Comments |
+| Date | Transaction | Debit | Credit | Comments |
 | --- | --- | --- | --- | --- |
 | 1 | Cash | $100,000 | | |
 | | Equity-Capital | | $100,000 | In case of multiple owners, then we shall have multiple accounts per owner |
