@@ -65,39 +65,39 @@
 
   </details>
 
-    | Date | Transaction | Debit | Credit | Comments |
-    | --- | --- | --- | --- | --- |
-    | 1 | Cash | $100,000 | | |
-    | | Equity-Capital | | $100,000 | In case of multiple owners, then we shall have multiple accounts per owner |
-    | 2 | Cash | $200,000 | | |
-    | | Liability-Bank_Loan | | $200,000 | In case of multiple bank loans from different banks, then it shall be different accounts per bank |
-    | 3 | Cash | $50,000 | | |
-    | | Revenues | | $50,000 | |
-    | 4 | Account-Receivable | $20,000 | | Credit-Service (On-account) means cash not collected, but service is delivered, so it is calculated as revenue. |
-    | | Revenues | | $20,000 | |
-    | 5 | Cash | $5,000 | | Get from Cash: `Credit Cash`<br>Collect Cash increase: `Debit Cash` |
-    | | Account-Receivable | | $5,000 | Providing invoices means `Accounts-Receivable (AR)` increases by debit. Collecting cash decreases `AR` by credit. |
-    | 6 | Equipment | $70,000 | | This is what we received, so we debit it.<br>Equipment is `Assets-CapEx` |
-    | | Cash | | $70,000 | |
-    | 7 | Inventory<br>`Assets` | $40,000 | | When purchasing goods that you will sell later, it is called `Inventory`, not `Supplies`. |
-    | | Accounts-Payable | | $40,000 | |
-    | 8 | Revenue | | \$50,000 | Selling means you generate an invoice. Any invoice is recorded as revenue. |
-    | | Cash | 10,000 | | **Cash** is only \$10,000 because the remaining is added as Debit for **Expenses_Inventory** |
-    | | Inventory (COGS)<br>`Expenses` | $40,000 | | `Cost of Goods Sold (COGS)` means inventory is converted to expense. Profit appears here because `Profit = Revenue - Cost`. |
-    |9 | Equipment | $2,000 | | |
-    | | Accounts-Payable | | $2,000 | |
-    |10| Supplier-Expenses (Ads Bill) | $10,000 | | Again, whatever we receive is `Debit` (i.e, cash, services, ads, invoices..etc.)<br>**Expenses** are always **Depit**|
-    | | Cash | | $10,000| |
-    |11| Expenses - Utilities | $5,0000 | | |
-    | | Account-Payable | | $5,000| Becuase it is not clear that we pay it |
-    |12| Account-Payable | $5,000| | to clear this amount because I will pay it now |
-    | | Cash | | $5,000| |
-    |13| owner-withdrawals | $5,000 | | |
-    | | Cash || $5,000| |
-    |14|  Prepaid Insurance | $60,000| |✨ This is not expenses because it is considered as Assets as long as it isn't yet used.<br>✨ However, every-month the moderator shall update the system by reducing this Assets-Prepaid_insurance (Cr.) by 5k and increase the Expenses-Insurance (Dr.) by 5k till 60k finished<br>✨ Again, consider that it is highly recommended because adding them as **one shot expenses** in single month will **destroy our Profit** figure.<br>✨ What if you make **Insurance that you will get back after you leave** the place? ➡️ This shall be doc under ***Account-Receivable(Dr.)*** and ***Cash (Cr.)***|
-    | | Cash | | $60,000| |
-    |15| Cash | $10,000| | |
-    | | Unearned-Revenue| | $10,000 | later when service is delivered, then we decrease the **Unearned-revenue by 10K (+Dr.)** and increase the **Revenue by 10K (Cr.)**|
+| Date | Transaction | Debit | Credit | Comments |
+| --- | --- | --- | --- | --- |
+| 1 | Cash | $100,000 | | |
+| | Equity-Capital | | $100,000 | In case of multiple owners, then we shall have multiple accounts per owner |
+| 2 | Cash | $200,000 | | |
+| | Liability-Bank_Loan | | $200,000 | In case of multiple bank loans from different banks, then it shall be different accounts per bank |
+| 3 | Cash | $50,000 | | |
+| | Revenues | | $50,000 | |
+| 4 | Account-Receivable | $20,000 | | Credit-Service (On-account) means cash not collected, but service is delivered, so it is calculated as revenue. |
+| | Revenues | | $20,000 | |
+| 5 | Cash | $5,000 | | Get from Cash: `Credit Cash`<br>Collect Cash increase: `Debit Cash` |
+| | Account-Receivable | | $5,000 | Providing invoices means `Accounts-Receivable (AR)` increases by debit. Collecting cash decreases `AR` by credit. |
+| 6 | Equipment | $70,000 | | This is what we received, so we debit it.<br>Equipment is `Assets-CapEx` |
+| | Cash | | $70,000 | |
+| 7 | Inventory<br>`Assets` | $40,000 | | When purchasing goods that you will sell later, it is called `Inventory`, not `Supplies`. |
+| | Accounts-Payable | | $40,000 | |
+| 8 | Revenue | | \$50,000 | Selling means you generate an invoice. Any invoice is recorded as revenue. |
+| | Cash | 10,000 | | **Cash** is only \$10,000 because the remaining is added as Debit for **Expenses_Inventory** |
+| | Inventory (COGS)<br>`Expenses` | $40,000 | | `Cost of Goods Sold (COGS)` means inventory is converted to expense. Profit appears here because `Profit = Revenue - Cost`. |
+|9 | Equipment | $2,000 | | |
+| | Accounts-Payable | | $2,000 | |
+|10| Supplier-Expenses (Ads Bill) | $10,000 | | Again, whatever we receive is `Debit` (i.e, cash, services, ads, invoices..etc.)<br>**Expenses** are always **Depit**|
+| | Cash | | $10,000| |
+|11| Expenses - Utilities | $5,0000 | | |
+| | Account-Payable | | $5,000| Becuase it is not clear that we pay it |
+|12| Account-Payable | $5,000| | to clear this amount because I will pay it now |
+| | Cash | | $5,000| |
+|13| owner-withdrawals | $5,000 | | |
+| | Cash || $5,000| |
+|14|  Prepaid Insurance | $60,000| |✨ This is not expenses because it is considered as Assets as long as it isn't yet used.<br>✨ However, every-month the moderator shall update the system by reducing this Assets-Prepaid_insurance (Cr.) by 5k and increase the Expenses-Insurance (Dr.) by 5k till 60k finished<br>✨ Again, consider that it is highly recommended because adding them as **one shot expenses** in single month will **destroy our Profit** figure.<br>✨ What if you make **Insurance that you will get back after you leave** the place? ➡️ This shall be doc under ***Account-Receivable(Dr.)*** and ***Cash (Cr.)***|
+| | Cash | | $60,000| |
+|15| Cash | $10,000| | |
+| | Unearned-Revenue| | $10,000 | later when service is delivered, then we decrease the **Unearned-revenue by 10K (+Dr.)** and increase the **Revenue by 10K (Cr.)**|
 
   - Now I want to check that everything is <ins>**recorded correctly**</ins>, so I need to make the **Trail-Balance**
     - I need to make a balance per account to ensure that everything is ok. 
