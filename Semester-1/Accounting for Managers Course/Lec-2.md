@@ -42,6 +42,7 @@ Assets = Liabilities + Equity
 * **Profit**
   * `Profit = Revenues - Expenses`
   * `Retained Capital/Earnings = Profit - Capital-Withdrawals`
+  * Before *Profit*, there is not **Taxes** applied. However once you have **Profit**, then **Taxes** are applied.
 * **Business Inputs**: 
   * Liabilities: Loans, Payable-items...etc.
   * Equity-Capital: Owner investments
