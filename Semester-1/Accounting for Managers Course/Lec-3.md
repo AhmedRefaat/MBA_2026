@@ -327,13 +327,69 @@
       * for Var-1: you can find something like: <ins>**Stright-line**</ins> ➡️ *equal-payment-installment* and  *Assets-Useful-Lifetime*
       * Then the Authority-Audit checks that such defined-Policies are reasonable (Car-Depreciations > 1-Y and correctly replaced). Such policies shall follow *technical-reasons* + *Best-practices*.
 
+<div style="page-break-after: always;"></div>
+
 * <ins>**Elements of Income Statment**</ins>
 
   | Income-Statment Element | Comment |
   | --- | --- |
-  | ![Revenue](Figures/Lec-3/InSt-Revenue.png) | * *Sales*: *Sales-Revenue* ➡️ when selling product.<br>* *Fee-Revenue*: when providing Services (ex. Uni MBA Program service, Lawyer).<br>* *Interest-Revenue*: ex. Bank-Deposit has returns.<br>* *Dividend-Revenue إيراد توزيعات الأرباح*: when having a daughter company and it made profits. So Co-A invested in Co-B, then Co-B makes profit, it shall be added as *Dividend-Revenue* for Co-A. This applies if it is sister-Co. | 
-  | ![Revenue](Figures/Lec-3/InSt-Expenses.png) | data| 
-  | ![Revenue](Figures/Lec-3/InSt-Expense-2.png) | data| 
+  | ![Revenue](Figures/Lec-3/InSt-Revenue.png) | * *Sales*: *Sales-Revenue* ➡️ when selling product.<br>* *Fee-Revenue*: when providing Services (ex. Uni MBA Program service, Lawyer).<br>* *Interest-Revenue*: ex. Bank-Deposit has returns.<br>* *Dividend-Revenue إيراد توزيعات الأرباح*: when having a daughter company and it made profits. So Co-A invested in Co-B, then Co-B makes profit, it shall be added as *Dividend-Revenue* for Co-A. This applies if it is sister-Co.<br>* *Rent-Revenue*: Ex Uni rent <ins>food-court space for restaurants</ins>, then rents are considered as *Rent-Revenue* |
+  | ![Revenue](Figures/Lec-3/InSt-Expenses.png) | * *Cost of goods sold (COGS)*: The biggest part of Expense. Purchase Goods to re-sell😉.<br>* *Interest-Expense*: in case of Loan, then interest value is expense. However the Loan main part itself is recorded as **Liability**.|
+  | ![Revenue](Figures/Lec-3/InSt-Expense-2.png) | * *Gain/Loses مكسب ارباح رأسمالية*: of other investment <br>&emsp;(ex. sell my *shares* in another Co., so in case of profit (buy with 1M and sell for 1.2M) then it ***Gain***, else it is ***Lose***, <ins>**or**</ins> <br>&emsp; selling piece of land <ins>**or**</ins><br>&emsp; Currency-exchange profit ...etc.)<br>* It is not recorded as *Revenue* to differentiate it from the main Business-income.<br>* Such gains are not daily-business Operations, however it is incidental |
 
-  * fdfsd
+<div style="page-break-after: always;"></div>
+
+  * **Single-Step Format** ➡️ Not Frequently used
+    <img src="Figures/Lec-3/Single-step%20InSt.png" alt="Single Step" width="70%">
+
+    * Collect all Revenues (**Core-Business** Related + **Non-Core-Business** Related) - Expenses.
+      * Theoretically, Taxes shall not be part of this
+      * It is <span style="background-color: #58DA58;">easy</span>.
+      * However, it is <span style="background-color: Red;">not accurate</span>, so it is not giving details and differentiate between the **Core-Business-Operations** & **Non-Core-Business-Operations**
+
+<div style="page-break-after: always;"></div>
+
+  * **Multiple-Step Format** ➡️  <ins>Frequently</ins> used
+
+     > [!IMPORTANT] Mutliple-Step Report 
+        > Multiple-Step Report is Reporting **Facts** with Min details possible. 
+
+    |  |  |
+    | --- | --- |
+    | <img src="Figures/Lec-3/Multiple-Step InSt.png" alt="Single Step" width="120%"><br> <img src="Figures/Lec-3/Multiple-Step InSt-2.png" alt="Single Step" width="120%"> |* You can see each item here as ***Cost-Center***<br>* **Sales (Sales-Revenue)**: Considering the **COGS** is the most important elements that affects *Sales* and will include different items which all related to prepare product for selling (Ex Real-Goods or Raw-Materials, Salaries for Production-team, Plant, Electricity, Labour-Salaries, Production-Machine Depreciation...etc.), so you can consider that **COGS** is <span style="background-color:Yellow;"><ins>***Cost-Center for Production***</ins></span><br>&emsp;* **Gross-Profit / مجمل الربح**: This is not **Net-Profit** because other **Expense** to be dedicated (ex. salaries, taxes, rents..etc.).<br>* **Expenses**:There are two major expenses (*Operating Expense*) that affect the Expenses<br>&emsp;* **Selling-Expense**: Ex. Ads, Rents (Shops or Shelves), Websites, Subscriptions, Salaries for sell-team, Phones-Depreciations, Bonus.<br>&emsp;* **Admin-Expense**: Ex Salaries of Management, Their Car-Depreciation, Internet ..etc.<br>* **Non-Core-Business Related (Other Revenue)** |
   
+    * One conclusion: There are duplication between **CODS**, **Selling-Expense** and **Admin-Expense** ➡️ However it is listed under different categories based on Core-Business order.
+    * However, we don't mention in details of each category, so it is easier for Top-Management to read and understand or even ensure the control and Performance-Comparisons.
+    * Each Num between Brackets (ex. Interest-Expense: (21,000)) means that it is (-ve).
+    * Income Before Taxes (IBT) or Earning Before Taxes (EBT)<br>
+
+    | | |
+    | --- | --- |
+    | <img src="Figures/Lec-3/Multiple-Step InSt Report Items.png" alt="Single Step" width="120%"> |* **Net-Sales-Revenues**: This value shall <ins>***EXCLUDE***</ins> sales-discounts, Sales-returns,..etc.<br>&emsp;* **Cash-Discount**: When Co. offer discount in case of Cash-Payment.<br>&emsp;* **Sales-Rebat**: When buying large amount then I get a discount on large amounts (for distributors)<br>* **SGA (Selling, General, Admin)**: Are Operating-Expenses.<br>* **Other-Income: Non-operating Gains & Loses**:<br>&emsp;* ***Book-Value***: Ex. Buy Car 1M EGP. Car-Depreciation is 10-years based on Co.-Policy (100K/year). After 8-Years, we decided to sell it. Now <span style="background-color:Yellow;"><ins>***Accumulated-Depreciation*** ➡️ Depreciatiion from Day-0 = 800K EGP</ins></span>, then the <span style="background-color:Yellow;"><ins>***remaining car-value (<span style="background-color:#3B81CD;">Book-value / القيمة الدفترية</span>)*** = 200K EGP</ins></span>. Then found the current *car-market-price = 250k EGP*, then we have <span style="background-color:#58DA58;">*Gain = 50K EGP*</span>, else if *car-market-price = 180k EGP*, then we have <span style="background-color:Red;">*Lose = 20K EGP*</span>. Once Car is sold, then it is removed from system (**Cost + Expense_Depreciation**), so each Asset-item has 2-accounts sides (**Cost + Expense_Depreciation**)  |
+
+    * To remove Asset from System, then you can **Cr. the Asset with its value** (Cr. is decrease in Assets & Expense sides). Considering that the Asset itself is not physically available in the company anymore. The following table shows the Lifetime of and Asset (ex. Car) on the company ➡️ <span style="background-color:Red;"> **To check if the Table is correctly settled!** </span>
+    
+    | Date | Transaction | Debit | Credit | Comments |
+    | --- | --- | --- | --- |--- |
+    | Jan-2018 | Equipments-Car | 1M | | * Buy new car for the company<br>* Based on Co.-Policy the car depreciation is 10-Years.|
+    | | Cash | | 1M | Cash Cr. because it is ⬇️|
+    |Jan-2019 | Accumulated-Depreciation_Car | 100K | | * This is the twin-Account for the Equipement-Car account to record its accumulated-depreciations for the Car.<br>* We can't decrease the value in the <ins>**Equipments-Car**</ins> because it is recorded with evidences and will be problems with Audits.|
+    | | Expense_Car_Depreciation | 100K | | |
+    |Jan-2020 | Accumulated-Depreciation_Car | 200K | | |
+    | | Expense_Car_Depreciation | 100K | | |
+    |Jan-2021 | Accumulated-Depreciation_Car | 200K | | |
+    | | Expense_Car_Depreciation | 100K | | |
+    |Jan-2022 | Accumulated-Depreciation_Car | 300K | | |
+    | | Expense_Car_Depreciation | 100K | | |
+    |Jan-2023 | Accumulated-Depreciation_Car | 400K | | |
+    | | Expense_Car_Depreciation | 100K | | |
+    |Jan-2024 | Accumulated-Depreciation_Car | 500K | | |
+    | | Expense_Car_Depreciation | 100K | | |
+    |Jan-2025 | Accumulated-Depreciation_Car | 600K | | |
+    | | Expense_Car_Depreciation | 100K | | |
+    |Jan-2026 | Accumulated-Depreciation_Car | 800K | | |
+    | | Expense_Car_Depreciation | 100K | | |
+    |Feb-2026 | Cash | 50K| | After 8-Years, we decided to sell the car (Booked-Value = 200K). However Market-Value = 250K |
+    | | Revenue-Gain | | 50K| This is Non-Core-Business operation gain however Asset selling |
+    | | Equipment-Car | | 1M | Credit the <ins>**Equipment-Car**</ins> account with 1M to remove the account from the system. |
+    | | Expense_Car_Depreciation | | 800K | Credit the <ins>**Expense_Car_Depreciation**</ins> with 800K to remove it as well from the system.|
