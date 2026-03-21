@@ -351,8 +351,8 @@
 
   * **Multiple-Step Format** ➡️  <ins>Frequently</ins> used
 
-     > [!IMPORTANT] Mutliple-Step Report 
-        > Multiple-Step Report is Reporting **Facts** with Min details possible. 
+     >[!IMPORTANT] Mutliple-Step Report 
+     > Multiple-Step Report is Reporting **Facts** with Min details possible. 
 
     |  |  |
     | --- | --- |
@@ -365,31 +365,100 @@
 
     | | |
     | --- | --- |
-    | <img src="Figures/Lec-3/Multiple-Step InSt Report Items.png" alt="Single Step" width="120%"> |* **Net-Sales-Revenues**: This value shall <ins>***EXCLUDE***</ins> sales-discounts, Sales-returns,..etc.<br>&emsp;* **Cash-Discount**: When Co. offer discount in case of Cash-Payment.<br>&emsp;* **Sales-Rebat**: When buying large amount then I get a discount on large amounts (for distributors)<br>* **SGA (Selling, General, Admin)**: Are Operating-Expenses.<br>* **Other-Income: Non-operating Gains & Loses**:<br>&emsp;* ***Book-Value***: Ex. Buy Car 1M EGP. Car-Depreciation is 10-years based on Co.-Policy (100K/year). After 8-Years, we decided to sell it. Now <span style="background-color:Yellow;"><ins>***Accumulated-Depreciation*** ➡️ Depreciatiion from Day-0 = 800K EGP</ins></span>, then the <span style="background-color:Yellow;"><ins>***remaining car-value (<span style="background-color:#3B81CD;">Book-value / القيمة الدفترية</span>)*** = 200K EGP</ins></span>. Then found the current *car-market-price = 250k EGP*, then we have <span style="background-color:#58DA58;">*Gain = 50K EGP*</span>, else if *car-market-price = 180k EGP*, then we have <span style="background-color:Red;">*Lose = 20K EGP*</span>. Once Car is sold, then it is removed from system (**Cost + Expense_Depreciation**), so each Asset-item has 2-accounts sides (**Cost + Expense_Depreciation**)  |
+    | <img src="Figures/Lec-3/Multiple-Step InSt Report Items.png" alt="Single Step" width="120%"> |* **Net_Sales_Revenues**: This value shall <ins>***EXCLUDE***</ins> sales-discounts, Sales-returns,..etc.<br>&emsp;* **Cash-Discount**: When Co. offer discount in case of Cash-Payment.<br>&emsp;* **Sales-Rebat**: When buying large amount then I get a discount on large amounts (for distributors)<br>* **SGA (Selling, General, Admin)**: Are Operating-Expenses.<br>* **Other-Income: Non-operating Gains & Loses**:<br>&emsp;* ***Book-Value***: Ex. Buy Car 1M EGP. Car-Depreciation is 10-years based on Co.-Policy (100K/year). After 8-Years, we decided to sell it. Now <span style="background-color:Yellow;"><ins>***Accumulated-Depreciation*** ➡️ Depreciatiion from Day-0 = 800K EGP</ins></span>, then the <span style="background-color:Yellow;"><ins>***remaining car-value (<span style="background-color:#3B81CD;">Book-value / القيمة الدفترية</span>)*** = 200K EGP</ins></span>. Then found the current *car-market-price = 250k EGP*, then we have <span style="background-color:#58DA58;">*Gain = 50K EGP*</span>, else if *car-market-price = 180k EGP*, then we have <span style="background-color:Red;">*Lose = 20K EGP*</span>. Once Car is sold, then it is removed from system (**Cost + Expense_Depreciation**), so each Asset-item has 2-accounts sides (**Cost + Expense_Depreciation**)  |
 
     * To remove Asset from System, then you can **Cr. the Asset with its value** (Cr. is decrease in Assets & Expense sides). Considering that the Asset itself is not physically available in the company anymore. The following table shows the Lifetime of and Asset (ex. Car) on the company ➡️ <span style="background-color:Red;"> **To check if the Table is correctly settled!** </span>
+      * In case we Sell the Asset-Car after 8-Years 
     
-    | Date | Transaction | Debit | Credit | Comments |
-    | --- | --- | --- | --- |--- |
-    | Jan-2018 | Equipments-Car | 1M | | * Buy new car for the company<br>* Based on Co.-Policy the car depreciation is 10-Years.|
-    | | Cash | | 1M | Cash Cr. because it is ⬇️|
-    |Jan-2019 | Accumulated-Depreciation_Car | 100K | | * This is the twin-Account for the Equipement-Car account to record its accumulated-depreciations for the Car.<br>* We can't decrease the value in the <ins>**Equipments-Car**</ins> because it is recorded with evidences and will be problems with Audits.|
-    | | Expense_Car_Depreciation | 100K | | |
-    |Jan-2020 | Accumulated-Depreciation_Car | 200K | | |
-    | | Expense_Car_Depreciation | 100K | | |
-    |Jan-2021 | Accumulated-Depreciation_Car | 200K | | |
-    | | Expense_Car_Depreciation | 100K | | |
-    |Jan-2022 | Accumulated-Depreciation_Car | 300K | | |
-    | | Expense_Car_Depreciation | 100K | | |
-    |Jan-2023 | Accumulated-Depreciation_Car | 400K | | |
-    | | Expense_Car_Depreciation | 100K | | |
-    |Jan-2024 | Accumulated-Depreciation_Car | 500K | | |
-    | | Expense_Car_Depreciation | 100K | | |
-    |Jan-2025 | Accumulated-Depreciation_Car | 600K | | |
-    | | Expense_Car_Depreciation | 100K | | |
-    |Jan-2026 | Accumulated-Depreciation_Car | 800K | | |
-    | | Expense_Car_Depreciation | 100K | | |
-    |Feb-2026 | Cash | 50K| | After 8-Years, we decided to sell the car (Booked-Value = 200K). However Market-Value = 250K |
-    | | Revenue-Gain | | 50K| This is Non-Core-Business operation gain however Asset selling |
-    | | Equipment-Car | | 1M | Credit the <ins>**Equipment-Car**</ins> account with 1M to remove the account from the system. |
-    | | Expense_Car_Depreciation | | 800K | Credit the <ins>**Expense_Car_Depreciation**</ins> with 800K to remove it as well from the system.|
+        | Date | Transaction | Debit | Credit | Comments |
+        | --- | --- | --- | --- |--- |
+        | Jan-2018 | Equipments-Car | 1M | | * Buy new car for the company<br>* Based on Co.-Policy the car depreciation is 10-Years.|
+        | | Cash | | 1M | Cash Cr. because it is ⬇️|
+        |Jan-2019 | Accumulated-Depreciation_Car | | 100K | * This is the twin-Account for the Equipement-Car account to record its accumulated-depreciations for the Car.<br>* it is Credit account because it decrease the Asset value 😉<br>* We can't decrease the value in the <ins>**Equipments-Car**</ins> because it is recorded with evidences and will be problems with Audits.|
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2020 | Accumulated-Depreciation_Car | | 200K  | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2021 | Accumulated-Depreciation_Car | | 200K  | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2022 | Accumulated-Depreciation_Car | | 300K | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2023 | Accumulated-Depreciation_Car | | 400K  | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2024 | Accumulated-Depreciation_Car | | 500K | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2025 | Accumulated-Depreciation_Car | | 600K | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2026 | Accumulated-Depreciation_Car | | 800K  | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Feb-2026 | Cash | 50K| | After 8-Years, we decided to sell the car (Booked-Value = 200K). However Market-Value = 250K |
+        | | Revenue-Gain | | 50K| This is Non-Core-Business operation gain however Asset selling |
+        | | Equipment-Car | | 1M | Credit the <ins>**Equipment-Car**</ins> account with 1M to Delete the account from the system. |
+        | | Expense_Car_Depreciation | 800K | | Debit the <ins>**Expense_Car_Depreciation**</ins> with 800K to Delete it as well from the system.|
+
+      * In case we continue Using the Asset-Car after 10-Years
+    
+        | Date | Transaction | Debit | Credit | Comments |
+        | --- | --- | --- | --- |--- |
+        | Jan-2018 | Equipments-Car | 1M | | * Buy new car for the company<br>* Based on Co.-Policy the car depreciation is 10-Years.|
+        | | Cash | | 1M | Cash Cr. because it is ⬇️|
+        |Jan-2019 | Accumulated-Depreciation_Car | | 100K | * This is the twin-Account for the Equipement-Car account to record its accumulated-depreciations for the Car.<br>* it is Credit account because it decrease the Asset value 😉<br>* We can't decrease the value in the <ins>**Equipments-Car**</ins> because it is recorded with evidences and will be problems with Audits.|
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2020 | Accumulated-Depreciation_Car | | 200K  | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2021 | Accumulated-Depreciation_Car | | 200K  | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2022 | Accumulated-Depreciation_Car | | 300K | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2023 | Accumulated-Depreciation_Car | | 400K  | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2024 | Accumulated-Depreciation_Car | | 500K | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2025 | Accumulated-Depreciation_Car | | 600K | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2026 | Accumulated-Depreciation_Car | | 800K  | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2027 | Accumulated-Depreciation_Car | | 900K  | |
+        | | Expense_Car_Depreciation | 100K | | |
+        |Jan-2028 | Accumulated-Depreciation_Car | | 99,999  | * This is the last time we Credit this account. from 2029, we will use the Assets-Car as if it is for free.<br>*  Accordingly, this will reflect on our Profits because no Expenses will be added on this Asset starting from 2029|
+        | | Expense_Car_Depreciation | 99,999 | | |
+
+    * **Summary**
+        >[!IMPORTANT] Rules Summary
+        > **Cost-of-Goods-Sells (COGS)** = All costs regarding the Production activities (ex. Raw-Material, Production-related-Expense)
+        > **Net_Sales_Revenue** = Gross_Sales - (Trade_Discounts + Sales_Returns + Cash_Discounts + Sales_Rebates)
+        > **Gross_Profit** = Net_Sales_Revenue - COGS
+        > **Operating_Expenses** = Selling_Expenses + General_Expenses + Administrative_Expenses
+        > **Operating_Income** = Gross_Profit - Operating_Expenses
+        > **Other Income (gain) / Loss (Ga/Lo)** = Ga/Lo_FixedAssets + Ga/Lo_ForeignExchange + Ga/Lo_Stocks/Bonds + Interest_Income(gain) - Interest_Expense + Dividend_Income
+        > **Earnings_before_Tax (EBT)** = Operating_Income +/- Other Income (gain) / Loss (Ga/Lo)
+        > **Net_Profit_After_Tax** = EBT - Income_Tax_Expenses
+
+
+    * **Example-1**:
+    <img src="Figures/Lec-3/Mutliple-Step InSt Ex.png" alt="Single Step" width="80%">
+    <img src="Figures/Lec-3/Multiple-Step InSt Report Items.png" alt="Single Step" width="60%">
+      
+      * <span style="background-color:#FCB0AA;">**Calculate the Gross-Profit**</span>
+      
+        | Income Statments | |
+        |--- |--- |
+        | **Net_Sales_Revenue** | 1,947,000 |
+        | COGS | 746,031 |
+        | **Gross_Profit** | 1,200,969|
+        | **Operating_Expenses** |
+        | Selling_Expenses | 165,785 | 
+        | General & Administrative_Expenses | 48,300 |
+        | Total Operating Expenses | 214,085 |
+        | **Income from Operations** | 986,884 |
+        | **Other Income (gain) / Loss (Ga/Lo)**|
+        | Interest Revenue | 38,000|
+        | Gain on Sale of Investiment | 55,000 |
+        | Interest Expense | 46,500 |
+        | total Other Ga/Lo | 46,500 |
+        | **Income/Earnings Before Tax (IBT/EBT)** | 1,033,384 |
+        | **Income Tax Expense** | 134,400 |
+        | **Net Profit After Tax** | 898,984 |
+
+
+        
+       
