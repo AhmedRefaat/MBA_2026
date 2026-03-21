@@ -99,6 +99,8 @@
 |15| Cash | $10,000| | |
 | | Unearned-Revenue| | $10,000 | later when service is delivered, then we decrease the **Unearned-revenue by 10K (+Dr.)** and increase the **Revenue by 10K (Cr.)**|
 
+  - Open Questions
+    - <span style="color: Red;">In Tx 7 & 8, the Inventory Transactions is not clear. Inventory in Tx.7 is in Assets. However Inventory in Tx.8 is part of Expenses. Later the Trial-balance shows Ok✅!. However, Inventory shall have Balance = 0, correct ?</span>
   - Now I want to check that everything is <ins>**recorded correctly**</ins>, so I need to make the **Trail-Balance**
     - I need to make a balance per account to ensure that everything is ok. 
     - Also consider that : <ins>**Debit >= Credit**</ins>.
@@ -276,10 +278,62 @@
     - If everything is OK and correctly recorded, then **`Debit-Balance = Credit-Balance`**
       - Therefore, we need the ***Trail-Balance*** as internal doc to check that everything is <ins>**balanced** ✅</ins>.
       - However, Trail-Balance is not powerful enough to ensure that all Accounts are correctly recorded, it ensures only the Balance is achieved (ex. In Tx.4, you add $20K in **Cash** instead of **Account-Receivable**➡️ **Trail-Balance** would be ok, however this won't reflect the reality because **Cash** end up with 225k however **Trail-Balance** will show 245K)
-    - Finally, in many cases, you need to make **Adjustments**. **Adjustments** is essential to ensure that system records are reflecting the reality (ex. Inventory is reflecting the real amount in our warehouse, *Prepaid_Insurance* is decreased in monthly basis..etc.)
   
-    > [!IMPORTANT] Common Notice : The following Accounts shall be usually (Debit)
-    > Asset ➡️ Debit
-    > Drawals ➡️ Debit
-    > Expense  ➡️ Debit
-    > So Balance usually are in ***Debit*** side.
+        > [!IMPORTANT] Common Notice : The following Accounts shall be usually (Debit)
+        > Asset    ➡️ Debit
+        > Expense  ➡️ Debit
+        > Drawls   ➡️ Debit
+        > So Balance usually are in ***Debit*** side.
+        > They are Known as <ins>***AED-Accounts***</ins> (Assets, Expenses, Drawl) Accounts
+
+        > [!IMPORTANT] Common Notice : The following Accounts shall be usually (Credit)
+        > Revenue   ➡️ Credit
+        > Capital   ➡️ Credit
+        > Liability ➡️ Credit
+        > So Balance usually are in ***Credit*** side.
+        > They are Known as <ins>***RCL-Accounts***</ins> (Revenue, Capital, Liability) Accounts
+
+    - Finally, in many cases, you need to make **Adjustments-تسويات**. **Adjustments** is essential to ensure that system records are reflecting the reality (ex. **Inventory** is reflecting the real amount in our warehouse, *Prepaid_Insurance*, *Internet-Subscriptions*, *Utilities-Long-Subscription* is decreased in monthly basis, **flight-tickets** usually recorded as *Unearned-Revenue* and after trip it is adjusted to be recorded as *Revenue*, even **Car** is considered as *Assets* as if it is <ins>*in-advance long subscription*</ins> and in monthly basis it shall be recorded as *Expense_Depreciation* ..etc.)
+    - After **Adjustments**: ✅, you good to go with Reports: 
+
+        | Balances | Report |
+        | --- | --- |
+        |*Revenue* vs *Expenses* | **Income-Statement**|
+        | *Equity-Accounts* | **Equity-Reports** for Owners |
+        | *Balance Accounts* | **Balance Sheet** |
+
+---
+<div style="page-break-after: always;"></div>
+
+### Income-Statement
+
+* It is required for:   
+  * Evaluate Past Performance
+  * Predicting future Performance
+  * Help assess the risk or uncertainty of achieving future cash flows
+* <ins>**Income-Statment**</ins> follows the <ins>***IFRS (International Financial Reporting Standards) standard***</ins>
+  * This is an internal-Org that published a **Global set of rules** for Accounting. 
+  * These rules are customized in away that fits with different type of Businesses (Agriculture, Industry, ...etc.)
+  * It is not obligatory, however it is recommended to follow, So it can be usable/readable all over the world.
+  * The Egyptian version is called <ins> ***EAS (Egyptian Accounting Standard) Standard***</ins> which is mandatory to be used for all Companies in EG.
+    * It is used for Accounting-Audits for example across EGY.
+    * Within **EAS**, it provides different calculation variety per account (Ex. Depreciation Calculations)
+      * Var-1: Time_Based-Depreciation: Car costs 1M EGP, will be used for 5-Years, then it will recorded as 200K per year
+      * Var-2: KM_Based-Depreciation: Depreciation is calculated based on Moved-KM, so every KM costs 10-EGP (Uber style).
+    * However, once Var-x selected then it shall be continuously used for the complete Account-Year.
+  * **General Standard Cons**:
+    * The companies performance is variable based on the selected Var-x within the Standard (*IFRS* or *EAS*).
+    * The <ins>*Depreciation*</ins> calculation is subjective to the company (ex. Co-A consider Car Depreciation within <ins>*5-Y*</ins> however Co-B considers it for <ins>*10-Y*</ins>). Such decisions is called as the <ins>***Company-Depreciation-Policy/Fixed-Assets-Policy***</ins> ➡️ Could be assignment or Questions 😉.
+      * for Var-1: you can find something like: <ins>**Stright-line**</ins> ➡️ *equal-payment-installment* and  *Assets-Useful-Lifetime*
+      * Then the Authority-Audit checks that such defined-Policies are reasonable (Car-Depreciations > 1-Y and correctly replaced). Such policies shall follow *technical-reasons* + *Best-practices*.
+
+* <ins>**Elements of Income Statment**</ins>
+
+  | Income-Statment Element | Comment |
+  | --- | --- |
+  | ![Revenue](Figures/Lec-3/InSt-Revenue.png) | * *Sales*: *Sales-Revenue* ➡️ when selling product.<br>* *Fee-Revenue*: when providing Services (ex. Uni MBA Program service, Lawyer).<br>* *Interest-Revenue*: ex. Bank-Deposit has returns.<br>* *Dividend-Revenue إيراد توزيعات الأرباح*: when having a daughter company and it made profits. So Co-A invested in Co-B, then Co-B makes profit, it shall be added as *Dividend-Revenue* for Co-A. This applies if it is sister-Co. | 
+  | ![Revenue](Figures/Lec-3/InSt-Expenses.png) | data| 
+  | ![Revenue](Figures/Lec-3/InSt-Expense-2.png) | data| 
+
+  * fdfsd
+  
