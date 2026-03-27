@@ -10,6 +10,7 @@
   * Formal: focus for the whole org
   * Informal: Focus mainly in department or dynamic based on a surprised situation
 * Purpose of PLanning
+    ![Plan Purpose](Images/Lec-2/Plan-Purpose.png)
   * Provides Direction: {Goal Setting, **Strategic-Alignment**}
   * Reducing Uncertainty
   * Minimizing Waste and Redundancy
@@ -18,6 +19,7 @@
 * What is the flexibility of the management to change the Strategy ?
   * this is shall be flexibly based on the market condition.
 * **Elements of Planning**
+  ![Plan Elements](Images/Lec-2/PlanElements.png)
   * Goal ➡️ Top part
   * Strategy ➡️ Middle
   * Plans ➡️Base

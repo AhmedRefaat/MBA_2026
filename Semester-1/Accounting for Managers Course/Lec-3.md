@@ -428,17 +428,18 @@
         > **Net_Sales_Revenue** = Gross_Sales - (Trade_Discounts + Sales_Returns + Cash_Discounts + Sales_Rebates)
         > **Gross_Profit** = Net_Sales_Revenue - COGS
         > **Operating_Expenses** = Selling_Expenses + General_Expenses + Administrative_Expenses
-        > **Operating_Income** = Gross_Profit - Operating_Expenses
+        > **Operating_Income/Profit** = Gross_Profit - Operating_Expenses
         > **Other Income (gain) / Loss (Ga/Lo)** = Ga/Lo_FixedAssets + Ga/Lo_ForeignExchange + Ga/Lo_Stocks/Bonds + Interest_Income(gain) - Interest_Expense + Dividend_Income
         > **Earnings_before_Tax (EBT)** = Operating_Income +/- Other Income (gain) / Loss (Ga/Lo)
         > **Net_Profit_After_Tax** = EBT - Income_Tax_Expenses
 
+        * Exam-Question: MCQ of each item based on some supplied values (Ex. *Gross-Profit* )
 
     * **Example-1**:
     <img src="Figures/Lec-3/Mutliple-Step InSt Ex.png" alt="Single Step" width="80%">
     <img src="Figures/Lec-3/Multiple-Step InSt Report Items.png" alt="Single Step" width="60%">
       
-      * <span style="background-color:#FCB0AA;">**Calculate the Gross-Profit**</span>
+      * <span style="background-color:#FCB0AA;">**Create Multiple-Step Income Statment**</span>
       
         | Income Statments | |
         |--- |--- |
@@ -449,7 +450,7 @@
         | Selling_Expenses | 165,785 | 
         | General & Administrative_Expenses | 48,300 |
         | Total Operating Expenses | 214,085 |
-        | **Income from Operations** | 986,884 |
+        | **Income/Profit from Operations** | 986,884 |
         | **Other Income (gain) / Loss (Ga/Lo)**|
         | Interest Revenue | 38,000|
         | Gain on Sale of Investiment | 55,000 |
