@@ -99,6 +99,8 @@
 |15| Cash | $10,000| | |
 | | Unearned-Revenue| | $10,000 | later when service is delivered, then we decrease the **Unearned-revenue by 10K (+Dr.)** and increase the **Revenue by 10K (Cr.)**|
 
+  - If Business is providing only services, then COGS is called ( ***<ins>Cost of Service (CoS)</ins>***)
+    - Ex: Uni ***<ins>CoS</ins>*** is lecturers salaries 😉
   - Open Questions
     - <span style="color: Red;">In Tx 7 & 8, the Inventory Transactions is not clear. Inventory in Tx.7 is in Assets. However Inventory in Tx.8 is part of Expenses. Later the Trial-balance shows Ok✅!. However, Inventory shall have Balance = 0, correct ?</span>
   - Now I want to check that everything is <ins>**recorded correctly**</ins>, so I need to make the **Trail-Balance**
@@ -328,7 +330,7 @@
 ---
 <div style="page-break-after: always;"></div>
 
-### Income-Statement
+### Income-Statement - (Called Also PnL)
 
 * It is required for:   
   * Evaluate Past Performance
@@ -352,13 +354,15 @@
 
 <div style="page-break-after: always;"></div>
 
-* <ins>**Elements of Income Statment**</ins>
+* <ins>**Elements of Income Statment (*PnL*)**</ins>
+  * Main PnL components: <br>**`Revenues`**<br>**`Expenses`**<br>**`Gain`**<br>**`Losses`**
+    * Main chractristic for all of them is: they are realized ➡️ we have evidence that each of them is really done (Collected/Delivered/Consumed).
 
   | Income-Statment Element | Comment |
   | --- | --- |
   | ![Revenue](Figures/Lec-3/InSt-Revenue.png) | * *Sales*: *Sales-Revenue* ➡️ when selling product.<br>* *Fee-Revenue*: when providing Services (ex. Uni MBA Program service, Lawyer).<br>* *Interest-Revenue*: ex. Bank-Deposit has returns.<br>* *Dividend-Revenue إيراد توزيعات الأرباح*: when having a daughter company and it made profits. So Co-A invested in Co-B, then Co-B makes profit, it shall be added as *Dividend-Revenue* for Co-A. This applies if it is sister-Co.<br>* *Rent-Revenue*: Ex Uni rent <ins>food-court space for restaurants</ins>, then rents are considered as *Rent-Revenue* |
   | ![Revenue](Figures/Lec-3/InSt-Expenses.png) | * *Cost of goods sold (COGS)*: The biggest part of Expense. Purchase Goods to re-sell😉.<br>* *Interest-Expense*: in case of Loan, then interest value is expense. However the Loan main part itself is recorded as **Liability**.|
-  | ![Revenue](Figures/Lec-3/InSt-Expense-2.png) | * *Gain/Loses مكسب ارباح رأسمالية*: of other investment <br>&emsp;(ex. sell my *shares* in another Co., so in case of profit (buy with 1M and sell for 1.2M) then it ***Gain***, else it is ***Lose***, <ins>**or**</ins> <br>&emsp; selling piece of land <ins>**or**</ins><br>&emsp; Currency-exchange profit ...etc.)<br>* It is not recorded as *Revenue* to differentiate it from the main Business-income.<br>* Such gains are not daily-business Operations, however it is incidental |
+  | ![Revenue](Figures/Lec-3/InSt-Expense-2.png) | * *Gain/Loses مكسب ارباح رأسمالية*: of other investment <br>&emsp;(ex. sell my *shares* in another Co., so in case of profit (buy with 1M and sell for 1.2M) then it ***Gain***, else it is ***Lose***, <ins>**or**</ins> <br>&emsp; selling piece of land <ins>**or**</ins><br>&emsp; Currency-exchange profit ...etc.)<br>* It is not recorded as *Revenue* to differentiate it from the main Business-income.<br>* Such gains are not daily-business Operations, however it is incidental<br>* The other **Other-Income (Expenses)** is considered part of ***<ins>Equity-Components</ins>*** |
 
 <div style="page-break-after: always;"></div>
 
