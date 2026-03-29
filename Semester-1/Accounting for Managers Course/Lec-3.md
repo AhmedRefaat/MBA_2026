@@ -294,7 +294,30 @@
         > They are Known as <ins>***RCL-Accounts***</ins> (Revenue, Capital, Liability) Accounts
 
     - Finally, in many cases, you need to make **Adjustments-تسويات**. **Adjustments** is essential to ensure that system records are reflecting the reality (ex. **Inventory** is reflecting the real amount in our warehouse, *Prepaid_Insurance*, *Internet-Subscriptions*, *Utilities-Long-Subscription* is decreased in monthly basis, **flight-tickets** usually recorded as *Unearned-Revenue* and after trip it is adjusted to be recorded as *Revenue*, even **Car** is considered as *Assets* as if it is <ins>*in-advance long subscription*</ins> and in monthly basis it shall be recorded as *Expense_Depreciation* ..etc.)
-    - After **Adjustments**: ✅, you good to go with Reports: 
+
+        <img src="Figures/Lec-3/Adjustment-types.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(8, 8, 219, 0.2);">
+
+      - During daily business operations, we could have **Deferrals - التأجيل** ➡️ [<ins>*Preparid-Expenses*</ins> (ex. insurrance, rent..etc.), <ins>*Unearned-(Deferred)Revenues*</ins> (ex. gift cards, Subscriptions...etc.)].
+      - During daily business operations, we could have **Accruals - الاستحقاق** ➡️ [ <ins>*Unrecorded-Receivables*</ins> (ex. Interest-Receivable, Rent-Receivable...etc.), <ins>**Unrecorded-Payables**</ins> (ex. Utilities Payable, Taxes-Payable, Wages-Payables..etc.)].
+        - Either *Accrued-Revenues - الإيرادات المستحقة* or *Accrued-Expenses - المصروفات المستحقة*.
+        - Ex-1:
+          - There is delayed invoice from Co.Side to the client, therefore the Cash is not collected. However, the service is delivered and the revenue shall be added to the current month.
+          -  Reason-1: The most IMP <ins>***🚨Accounts/Reports🚨***</ins> shall be accurate per month ➡️ <br> **`Balance-Sheet`** <br> **`PnL: Profit = Revenues - Expenses`**
+          -  Reason-2: The Expeneses for this "Delveried Service" is already paid and calculated for this month, therefore the revenue shall be reported for this month.
+          -  Accordingly, we add the money to **Revenue-Receivable** account as <ins>**Accrued-Revenue**</ins> for this month.
+          ---  
+         -  Ex-2:
+            -  The Electricity-invoice is not received till the end of the month. 
+            -  It is not allowed to Generate both of **`Balance-Sheet`** and **`PnL`** without this *Electricity-invoice*.
+            -  So, I shall add the <ins>**Expenese**</ins> for the Electricity-Expense + Add a new item in the <ins>**Liability_Accrued-Expense**</ins>
+          ---  
+         -  Ex-3:
+            -  There is **Prepaid-Insurrance** paid for the whole year (Asset_Prepaid-Insurrance Dr.).
+            -  For each month, this Insurrance shall be adjusted as Expenses.
+            -  Accordingly, we adjust the **Expense Cr.** by the month share of the Insurrance, and also Cr. the **Asset_Prepaid-Insurrance** with the same value.
+      - At the end of the each **Accounting-Cycle**, we shall remove all of these <ins>***x-Receivable***</ins> & <ins>***x-Payable***</ins> to reflect the reality.
+
+    - After **Adjustments**: ✅, you good to go with Reports:
 
         | Balances | Report |
         | --- | --- |
@@ -365,8 +388,12 @@
 
     | | |
     | --- | --- |
-    | <img src="Figures/Lec-3/Multiple-Step InSt Report Items.png" alt="Single Step" width="120%"> |* **Net_Sales_Revenues**: This value shall <ins>***EXCLUDE***</ins> sales-discounts, Sales-returns,..etc.<br>&emsp;* **Cash-Discount**: When Co. offer discount in case of Cash-Payment.<br>&emsp;* **Sales-Rebat**: When buying large amount then I get a discount on large amounts (for distributors)<br>* **SGA (Selling, General, Admin)**: Are Operating-Expenses.<br>* **Other-Income: Non-operating Gains & Loses**:<br>&emsp;* ***Book-Value***: Ex. Buy Car 1M EGP. Car-Depreciation is 10-years based on Co.-Policy (100K/year). After 8-Years, we decided to sell it. Now <span style="background-color:Yellow;"><ins>***Accumulated-Depreciation*** ➡️ Depreciatiion from Day-0 = 800K EGP</ins></span>, then the <span style="background-color:Yellow;"><ins>***remaining car-value (<span style="background-color:#3B81CD;">Book-value / القيمة الدفترية</span>)*** = 200K EGP</ins></span>. Then found the current *car-market-price = 250k EGP*, then we have <span style="background-color:#58DA58;">*Gain = 50K EGP*</span>, else if *car-market-price = 180k EGP*, then we have <span style="background-color:Red;">*Lose = 20K EGP*</span>. Once Car is sold, then it is removed from system (**Cost + Expense_Depreciation**), so each Asset-item has 2-accounts sides (**Cost + Expense_Depreciation**)  |
+    | <img src="Figures/Lec-3/Multiple-Step InSt Report Items.png" alt="Single Step" width="120%"> |* **Net_Sales_Revenues**: This is the Net-Sales value and it shall <ins>***EXCLUDE***</ins> sales-discounts, Sales-returns, Sales-Allowance, Sales-Return, Cash-Discounts...etc.<br>&emsp;* **Cash-Discount**: When Co. offer discount in case of Cash-Payment.<br>&emsp;* **Sales-Rebat**: When buying large amount then I get a discount on large amounts (for distributors)<br>&emsp;* **Sales-Allowance**: the discount that provided for client for <ins>*defected-Product*</ins>, this is IMP-account for <ins>**Quality Measurement**</ins><br>* **SGA (Selling, General, Admin)**: Are Operating-Expenses.<br>* **Other-Income: Non-operating Gains & Loses**:<br>&emsp;* ***Book-Value***: Ex. Buy Car 1M EGP. Car-Depreciation is 10-years based on Co.-Policy (100K/year). After 8-Years, we decided to sell it. Now <span style="background-color:Yellow;"><ins>***Accumulated-Depreciation*** ➡️ Depreciatiion from Day-0 = 800K EGP</ins></span>, then the <span style="background-color:Yellow;"><ins>***remaining car-value (<span style="background-color:#3B81CD;">Book-value / القيمة الدفترية</span>)*** = 200K EGP</ins></span>. Then found the current *car-market-price = 250k EGP*, then we have <span style="background-color:#58DA58;">*Gain = 50K EGP*</span>, else if *car-market-price = 180k EGP*, then we have <span style="background-color:Red;">*Lose = 20K EGP*</span>. Once Car is sold, then it is removed from system (**Cost + Expense_Depreciation**), so each Asset-item has 2-accounts sides (**Cost + Expense_Depreciation**)  |
 
+    * **Net-Sales Adjustment** Note:
+      * Let's assume that I have a merchant that I knew that he used to meet the Yearly-target, hence, we shall not add the <ins>**Sales-Rebat**</ins> for him in Dec and this considered as huge Expense for Dec. However it shall be adjusted as Liability and decresed every-month.
+    * **Contra-Accounts**: This is the *Companion* accounts for each Account, but it is calculated in the opposite direction (Assets-Normal: Dr.❌Assets-**Contra**: Cr. / Sales-Revenue: Cr.❌Sales-Revenue-**Contra**:Dr.)
+      * So, whenever preseting the **Sells-Account**, it is required to provide the ***Contra-Sells-Account*** (i.e., Sells-Expense: Shops rents, Sells labour salaries..etc.)
     * To remove Asset from System, then you can **Cr. the Asset with its value** (Cr. is decrease in Assets & Expense sides). Considering that the Asset itself is not physically available in the company anymore. The following table shows the Lifetime of and Asset (ex. Car) on the company ➡️ <span style="background-color:Red;"> **To check if the Table is correctly settled!** </span>
       * In case we Sell the Asset-Car after 8-Years 
     
@@ -422,16 +449,28 @@
         |Jan-2028 | Accumulated-Depreciation_Car | | 99,999  | * This is the last time we Credit this account. from 2029, we will use the Assets-Car as if it is for free.<br>*  Accordingly, this will reflect on our Profits because no Expenses will be added on this Asset starting from 2029|
         | | Expense_Car_Depreciation | 99,999 | | |
 
+    * <ins>**Earnings Per Share (EPS)**</ins>
+
+        >[!IMPORTANT] Earnings Per Share (EPS)
+        > $$\text{Earnings per Share (EPS)} = \frac{\text{Net Income} - \text{Preferred Dividends}}{\text{Weighted Average Number of Shares Outstanding}}$$
+      
+      * *Earnings per Share*: EPS measures earnings available to common shares only.
+      * *Perferred Dividends*: called also (*Perferred stock dividends*) which is the portion of profit that belongs to <ins>**perferred shareholders**</ins> before <ins>**common shareholders**</ins>.
+      * It must be disclosed in the **Income-statment**.
+
+    <div style="page-break-after: always;"></div>
+
     * **Summary**
         >[!IMPORTANT] Rules Summary
         > **Cost-of-Goods-Sells (COGS)** = All costs regarding the Production activities (ex. Raw-Material, Production-related-Expense)
         > **Net_Sales_Revenue** = Gross_Sales - (Trade_Discounts + Sales_Returns + Cash_Discounts + Sales_Rebates)
         > **Gross_Profit** = Net_Sales_Revenue - COGS
         > **Operating_Expenses** = Selling_Expenses + General_Expenses + Administrative_Expenses
-        > **Operating_Income/Profit** = Gross_Profit - Operating_Expenses
-        > **Other Income (gain) / Loss (Ga/Lo)** = Ga/Lo_FixedAssets + Ga/Lo_ForeignExchange + Ga/Lo_Stocks/Bonds + Interest_Income(gain) - Interest_Expense + Dividend_Income
+        > **Operating_Income(Income from Operation)/Profit** = Gross_Profit - Operating_Expenses
+        > **Other Income (gain) / Loss (Ga/Lo) - NonOperating items** = Ga/Lo_FixedAssets + Ga/Lo_ForeignExchange + Ga/Lo_Stocks/Bonds + Interest_Income(gain) - Interest_Expense + Dividend_Income
         > **Earnings_before_Tax (EBT)** = Operating_Income +/- Other Income (gain) / Loss (Ga/Lo)
         > **Net_Profit_After_Tax** = EBT - Income_Tax_Expenses
+        > $$\text{Earnings per Share (EPS)} = \frac{\text{Net Income} - \text{Preferred Dividends}}{\text{Weighted Average Number of Shares Outstanding}}$$
 
         * Exam-Question: MCQ of each item based on some supplied values (Ex. *Gross-Profit* )
 
