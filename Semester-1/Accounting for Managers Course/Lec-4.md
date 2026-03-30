@@ -189,14 +189,24 @@
     ```
 
 * Example:
-  * We have 3M **cash** in *Assets*, so we decided to invest in **<ins>Security اوراق مالية</ins>** ➡️ so it is investment in Other companies.Most common types:<br>**`Stocks`**<br>**`Bonds (Debt Security)`**
+  * We have 3M **cash** in *Assets*, so we decided to invest in **<ins>Security اوراق مالية</ins>** ➡️ so it is investment in Other companies.Most common types:<br>**`Stocks`**<br>**`Bonds (Debt Security) ورقة مالية بغرض المديونية`**<br>**`Portfolio`**: Means a collection of Assets (i.e., Cash, Stocks, Bonds, Debt Securities, Equity Securities...etc.)
   
     <br>
 
     |Difference | **Stocks** (known as: *Equity-Security*) | **Bonds** (Known as: *Debt-Security*)|
     |--- | --- | --- |
-    |**definition** | this is a share in the company so the stock owner is sharing the Revenue/Loses - ورقة مالية بغرض الملكي | This is kind of loan to the company but from **Individuals** instead of getting loan from Bank ➡️ Better in Approval process and faster<br> This is similar to: اذن الخزانة من الدول<br>The Co. issues a paper for 1K, with interest rate = 10% for 5-Year. So the Bond owner provide 1K to the company in front of this Paper and get 100 every year. After 5-Years, the Co. return the 1K back to the Bond Owner. |
+    |**definition** | this is a share in the company so the stock owner is sharing the Revenue/Loses - ورقة مالية بغرض الملكي | This is kind of loan to the company but from **Individuals** instead of getting loan from Bank ➡️ Better in Approval process and faster<br> This is similar to: اذن الخزانة من الدول<br>The Co. issues a paper for 1K, with interest rate = 10% for 5-Year. So the Bond owner provide 1K to the company in front of this Paper and get 100 every year. After 5-Years, the Co. return the 1K back to the Bond Owner.<br>Sometimes (not in EG), People sell one Bond for Co-1 to buy another Bond from Co-2 because Co-2 offers better Rates. |
     |**Relationship** | Stock owner is considered as one of the owners of this company which stock belongs to | Bonds owner is debit the company that provide this Bond with a certain amount of money |
     |**Rights due to Relationship** |* I receive dividends in case of the company makes revenue and they decided to distribute dividends.<br>* Gain/Loss due difference between Purchase/Selling of the stocks due to market situations. | The Bond is issued with a certain interest rate which is ***<ins>independent</ins>*** on the financial situation of the company (gain or loss) ➡️ This is consider less risk and more stable. |
 
-Till 22:05
+  * The Company decided to use its portfolio of 3M in investments within 3 different companies (Co-A, Co-B, Co-C) and the Finance/Treasury team has the following plan: 
+    * They will invest 1M per each Company (Co-A, Co-B, Co-C) with the following investment plan: 
+  
+    | | Co-A Investment (to Trade) | Co-B Investment (Held to Maturity) | Co-C Investment (Available 4 Sale)|
+    | --- | --- | --- | --- |
+    | **Definition** | to Trade means to purchase and sell based on the market state | I bought Bonds with acceptable Rate and I won't sell it till end of the Bond agreement.<br> Hold the investment till the date of Maturity.| * *The Assets that you can't classify as Trading-Treasury nor Held2Maturity Treasury*.<br>* Such Treasury we purchased it and we are planning to sell, however it isn't so  fast as (2Trade) or so slow as (Held2Maturity).<br>* So we hold such Treasury for a while and gain some dividends/Interest, suddenly market price jumps, then sell.|
+    | **Market-Concern?** | In such stocks trading, we are totally concern about the stocks prices in the market. | In this investment type, we don't care about the market prices. <br> as if you bought an apartment to save your cash in it and just renting it for long period | In such Stocks-investment, we care about its market price. |
+    | **Reporting** | * The stocks prices are announced by the **Stocks-Exchange** globally<br>* Our Company can update the price of its Treasury stocks that belongs to Co-A easily in its reports as long as it is announced by the **Stocks-Exchange**. | * The values of such assets are kept in report without any update during this period as we don't concern with the market value changes during this period.<br>* Accordingly, Gain/Losses are not applicable idea here simply, because we not comparing to Market price.<br>* The yearly-interest return from this bond will be reported within the **Interest-Revenue** section only, however the Assets itself (Bond price) won't be update/adjusted ➡️ So we are sure that **Balance-sheet** is correctly updated regarding this investment. | * If the Stocks-prices increased by X, then where shall we report this X?<br>* if we add this X within Income, then we indicate that we will sell soon, which is not the case !, so we report these X within the ***OCI*** till we confirm when shall we sell.|
+    | Num-Example| * our company found that by 31-Dec that the price of Co-A stocks increases from 1M ➡️ 1.5M<br>* The new 0.5M will be added under **Net-Income**, although we didn't sell the stocks yet!➡️ This is allowed because, we purchased those stocks for trading, so within max (Month), we will sell those stocks. However, we will state that it is ***<ins>Unrealized</ins>*** as well. | | * We Bought with 1M, then after 1-Year, we found that stocks prices becomes 3M.<br>* so we report the stocks-prices gain/loses within OCI as part of unrealized gain/loses |
+
+    Till 31:38
