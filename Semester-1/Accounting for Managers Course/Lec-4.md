@@ -96,6 +96,7 @@
 
 ### Comprehensive Income Statement / Report
 
+* This is a statement / Reports that shows the Gain/Losses within the **<ins>Year ONLY</ins>**
 * Assumption: the Co. bought a **Land** since *<ins>10-Years</ins>* which costed at that time around *<ins>1M</ins>* as stated in the **CO._Income-Statement** with this value. Nowadays, the Co. wants to enhance its **Income-Statement** by re-evaluating its old Assets (i.e., the Land in this case). Co. hired some authorized agency to do this re-evaluation so it shall be updated in the company **Income-Statement**.
 * Such Option becomes allowed by the Egyptian government after this current inflation, however it is not obligatory 😉, however this is known in the International regulations.
   * However, this is a costly operations and has alot of Hassels. Considering that revaluation process is performed for all the *<ins>Co.-Comprehensive Items (Fixed Assets)</ins>* (ex. Co. Buildings, Co. owned Land..etc., but not the items which is part of any the production process). So it is not selective to enhance your reports 😉😜.
