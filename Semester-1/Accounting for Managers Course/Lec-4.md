@@ -188,6 +188,49 @@
       style OCI3 fill:#F9E79F,stroke:#B7950B,color:#333
     ```
 
+    ---
+
+    ```mermaid
+    graph TB
+    EQ["<b>Accounting Equation</b><br>Assets = Liabilities + Equity"]
+
+    A["<b>Assets</b>"]
+    L["<b>Liabilities</b>"]
+    E["<b>Equity</b>"]
+
+    E1["<b>Capital</b><br>(+)"]
+    E2["<b>Drawings</b><br>(-)"]
+    E3["<b>Revenue</b><br>(+)"]
+    E4["<b>Expenses</b><br>(-)"]
+    E5["<b>Gains</b><br>(+)"]
+    E6["<b>Losses</b><br>(-)"]
+    E7["<b>OCI</b><br>(±)"]
+
+    EQ --> A
+    EQ --> L
+    EQ --> E
+
+    E --> E1
+    E --> E2
+    E --> E3
+    E --> E4
+    E --> E5
+    E --> E6
+    E --> E7
+
+    style EQ fill:#5B2C6F,stroke:#4A235A,color:#fff
+    style A fill:#2E86C1,stroke:#1B4F72,color:#fff
+    style L fill:#E74C3C,stroke:#922B21,color:#fff
+    style E fill:#27AE60,stroke:#1E8449,color:#fff
+    style E1 fill:#82E0AA,stroke:#1E8449,color:#333
+    style E2 fill:#F5B7B1,stroke:#922B21,color:#333
+    style E3 fill:#82E0AA,stroke:#1E8449,color:#333
+    style E4 fill:#F5B7B1,stroke:#922B21,color:#333
+    style E5 fill:#F9E79F,stroke:#B7950B,color:#333
+    style E6 fill:#F5B7B1,stroke:#922B21,color:#333
+    style E7 fill:#E67E22,stroke:#BA4A00,color:#fff
+    ```
+
 * Example:
   * We have 3M **cash** in *Assets*, so we decided to invest in **<ins>Security اوراق مالية</ins>** ➡️ so it is investment in Other companies.Most common types:<br>**`Stocks`**<br>**`Bonds (Debt Security) ورقة مالية بغرض المديونية`**<br>**`Portfolio`**: Means a collection of Assets (i.e., Cash, Stocks, Bonds, Debt Securities, Equity Securities...etc.)
   
@@ -206,7 +249,50 @@
     | --- | --- | --- | --- |
     | **Definition** | to Trade means to purchase and sell based on the market state | I bought Bonds with acceptable Rate and I won't sell it till end of the Bond agreement.<br> Hold the investment till the date of Maturity.| * *The Assets that you can't classify as Trading-Treasury nor Held2Maturity Treasury*.<br>* Such Treasury we purchased it and we are planning to sell, however it isn't so  fast as (2Trade) or so slow as (Held2Maturity).<br>* So we hold such Treasury for a while and gain some dividends/Interest, suddenly market price jumps, then sell.|
     | **Market-Concern?** | In such stocks trading, we are totally concern about the stocks prices in the market. | In this investment type, we don't care about the market prices. <br> as if you bought an apartment to save your cash in it and just renting it for long period | In such Stocks-investment, we care about its market price. |
-    | **Reporting** | * The stocks prices are announced by the **Stocks-Exchange** globally<br>* Our Company can update the price of its Treasury stocks that belongs to Co-A easily in its reports as long as it is announced by the **Stocks-Exchange**. | * The values of such assets are kept in report without any update during this period as we don't concern with the market value changes during this period.<br>* Accordingly, Gain/Losses are not applicable idea here simply, because we not comparing to Market price.<br>* The yearly-interest return from this bond will be reported within the **Interest-Revenue** section only, however the Assets itself (Bond price) won't be update/adjusted ➡️ So we are sure that **Balance-sheet** is correctly updated regarding this investment. | * If the Stocks-prices increased by X, then where shall we report this X?<br>* if we add this X within Income, then we indicate that we will sell soon, which is not the case !, so we report these X within the ***OCI*** till we confirm when shall we sell.|
-    | Num-Example| * our company found that by 31-Dec that the price of Co-A stocks increases from 1M ➡️ 1.5M<br>* The new 0.5M will be added under **Net-Income**, although we didn't sell the stocks yet!➡️ This is allowed because, we purchased those stocks for trading, so within max (Month), we will sell those stocks. However, we will state that it is ***<ins>Unrealized</ins>*** as well. | | * We Bought with 1M, then after 1-Year, we found that stocks prices becomes 3M.<br>* so we report the stocks-prices gain/loses within OCI as part of unrealized gain/loses |
+    | **Reporting** | * The stocks prices are announced by the **Stocks-Exchange** globally<br>* Our Company can update the price of its Treasury stocks that belongs to Co-A easily in its reports as long as it is announced by the **Stocks-Exchange** ➡️ Adjust it to its ***<ins>Fair-Value</ins>***.<br>* Add it under **gain-on-trading-Security** with 0.5 M | * The values of such assets are kept in report without any update during this period as we don't concern with the market value changes during this period.<br>* Accordingly, Gain/Losses are not applicable idea here simply, because we not comparing to Market price.<br>* The yearly-interest return from this bond will be reported within the **Interest-Revenue** section only, however the Assets itself (Bond price) won't be update/adjusted ➡️ So we are sure that **Balance-sheet** is correctly updated regarding this investment. | * If the Stocks-prices increased by X, then where shall we report this X?<br>* if we add this X within Income, then we indicate that we will sell soon, which is not the case !, so we report these X within the ***OCI*** till we confirm when shall we sell.|
+    | Num-Example| * our company found that by 31-Dec that the price of Co-A stocks increases from 1M ➡️ 1.5M<br>* The new 0.5M will be added under **Net-Income** - **gain-on-trading-Security** [Investment (Assets Dr.) ⬆️ 0.5M, Gain (Equity Cr.) ⬆️ 0.5M], although we didn't sell the stocks yet!➡️ This is allowed because, we purchased those stocks for trading, so within max (Month), we will sell those stocks. However, we will state that it is ***<ins>Unrealized</ins>*** as well. | | * We Bought with 1M, then after 1-Year, we found that stocks prices becomes 3M.<br>* so we report the stocks-prices gain/loses within OCI as part of unrealized gain/loses |
 
-    Till 31:38
+  * The Detailed info of such Treasury investment (2Trade(2T)) are documented in the internal Co report which sometime called **"Investment PnL"**
+    * This shows the Stocks that we purchase for investment and outcome Gain/Loss will be directed towards **PnL** report.
+  * The Detailed info of such Treasury investment ( Availability4Sales(A4S)) are documented in the internal Co report which sometime called **"Investment OCI"**
+    * Why **OCI**? because we still didn't decide Whether we will hold or sell, accordingly, the outcome Gain/loss will reported in the **OCI** report.
+  * **Held2Maturity** investment at anytime can be re-classified to 2Trade and sell it, there is  no restriction.
+
+
+* **Trading Securities**
+  * <span style="background-color:#04A875;">*Market value is concerned*.</span>
+  * Its **Fair-value** shall be documented in ***Income-Statement***
+  * Realization of previous Ex in Accounting Equation:
+    | Date | Transaction | Dr . |  Cr. |
+    | --- |--- | --- | --- |
+    |**<ins>5-Dec</ins>**-25| Purchase stocks in Co-1 for trading for 1000 dollars | | |
+    | | Investment (Assets) | 1000 | |
+    | | Cash (Assets) | | 1000 |
+    | **<ins>31-Dec</ins>**-25 | Adjust Co-1 Stocks prices to its **Fair-value** to generate the *Income-Statement*<br>Fair-Value = 1500 dollars | | |
+    | | Investment (Assets) | 500 | |
+    | | Gain (Equity) | | 500 |
+
+
+    
+
+* **Available for Sale Securities**
+  * <span style="background-color:#04A875;">*Market value is concerned*.</span>
+  * Accordingly, it shall be reported in **OCI** report.
+
+* **Held to Maturity Securities**
+  * <span style="background-color:#BE1E12;">*Market value is concerned*.</span>
+  * This is recorded in Cost only
+  * Its Gain/Losses are recorded into the *<ins>Interest-Revenue</ins>* in the **Income-Statement**
+
+* **Translation Gains/Losses on foreign currency**
+  * This is not related to the **"Foreign currency transaction"** that shows the gain/loss due to foreign currency transaction related topic.
+    * Why? ➡️ Because this transactions is ***<ins>realized</ins>*** Gain/Loss and shall be seen in the **Income-Statement** 😉 under **"Foreign currency *<ins>Transaction</ins>*"**.
+  * Ex-1 for clarification
+    * Co-EG is investing in another company in oversees Company (ex. Co-US) but with percentage > 50% ➡️ Control percentage 😉
+    * Accordingly, the EG-Regulation consider that this Co-US & Co-EG is one entity and we are required to provide a consolidated Report by End of Year.
+      * Simply, we will have a couple of reports (**<ins>Co-EG</ins>**: Assets & Liabilities) + (**<ins>Co-US</ins>**: Assets & Liabilities)
+      * combine them together (EG-Assets + US-Assets), (EG-Liabilities + US-Liabilities) ➡️ This is the **<ins>Consolidated-Report</ins>**
+      * Buuuuuut: US-Assets / US-Liabilities shall be translated in **EGP** not US ➡️ This translation will end up into a **Gain/Loss** 
+        * sometimes, it is called ***<ins>Adjustment</ins>***
+      * This **Gain/Loss** value is added into the **OCI** under **"Foreign currency *<ins>Translation</ins>*"** because it is ***<ins>unrealized</ins>*** value 😉.
+
