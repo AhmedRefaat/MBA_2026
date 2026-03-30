@@ -258,6 +258,65 @@
     * Why **OCI**? because we still didn't decide Whether we will hold or sell, accordingly, the outcome Gain/loss will reported in the **OCI** report.
   * **Held2Maturity** investment at anytime can be re-classified to 2Trade and sell it, there is  no restriction.
 
+```mermaid
+graph TB
+    IS["<b>Investment Securities</b><br>Classification & Reporting"]
+
+    TS["<b>Trading Securities</b><br>📈 Short-term / Active Trading<br>(Buy & Sell frequently)"]
+    AFS["<b>Available-for-Sale<br>Securities (AFS)</b><br>📊 Neither Trading nor HTM"]
+    HTM["<b>Held-to-Maturity<br>Securities (HTM)</b><br>🏦 Debt only / Hold until maturity"]
+
+    IS --> TS
+    IS --> AFS
+    IS --> HTM
+
+    subgraph " Income Statement (PnL)"
+        TS1["Reported at <b>Fair Value</b>"]
+        TS2["Unrealized Gains/Losses<br>→ recognized in <b>Net Income</b>"]
+        TS3["Realized Gains/Losses<br>→ recognized in <b>Net Income</b>"]
+    end
+
+    subgraph " Other Comprehensive Income (OCI)"
+        AFS1["Reported at <b>Fair Value</b>"]
+        AFS2["Unrealized Gains/Losses<br>→ recognized in <b>OCI</b><br>(Not in Net Income)"]
+        AFS3["Realized Gains/Losses<br>(when sold) → moved to<br><b>Net Income</b>"]
+    end
+
+    subgraph " Balance Sheet (at Cost)"
+        HTM1["Reported at <b>Amortized Cost</b><br>(Not Fair Value)"]
+        HTM2["No Unrealized Ga/Lo<br>recognized"]
+        HTM3["<b>Interest Revenue</b><br>→ recognized in<br><b>Income Statement</b>"]
+    end
+
+    TS --> TS1
+    TS --> TS2
+    TS --> TS3
+
+    AFS --> AFS1
+    AFS --> AFS2
+    AFS --> AFS3
+
+    HTM --> HTM1
+    HTM --> HTM2
+    HTM --> HTM3
+
+    style IS fill:#5B2C6F,stroke:#4A235A,color:#fff
+    style TS fill:#27AE60,stroke:#1E8449,color:#fff
+    style AFS fill:#E67E22,stroke:#BA4A00,color:#fff
+    style HTM fill:#2E86C1,stroke:#1B4F72,color:#fff
+
+    style TS1 fill:#82E0AA,stroke:#1E8449,color:#333
+    style TS2 fill:#82E0AA,stroke:#1E8449,color:#333
+    style TS3 fill:#82E0AA,stroke:#1E8449,color:#333
+
+    style AFS1 fill:#F9E79F,stroke:#B7950B,color:#333
+    style AFS2 fill:#F9E79F,stroke:#B7950B,color:#333
+    style AFS3 fill:#F9E79F,stroke:#B7950B,color:#333
+
+    style HTM1 fill:#AED6F1,stroke:#1B4F72,color:#333
+    style HTM2 fill:#AED6F1,stroke:#1B4F72,color:#333
+    style HTM3 fill:#AED6F1,stroke:#1B4F72,color:#333
+```
 
 * **Trading Securities**
   * <span style="background-color:#04A875;">*Market value is concerned*.</span>
@@ -272,8 +331,6 @@
     | | Investment (Assets) | 500 | |
     | | Gain (Equity) | | 500 |
 
-
-    
 
 * **Available for Sale Securities**
   * <span style="background-color:#04A875;">*Market value is concerned*.</span>
@@ -296,3 +353,38 @@
         * sometimes, it is called ***<ins>Adjustment</ins>***
       * This **Gain/Loss** value is added into the **OCI** under **"Foreign currency *<ins>Translation</ins>*"** because it is ***<ins>unrealized</ins>*** value 😉.
 
+---
+<div style="page-break-after: always;"></div>
+
+### **Exercises**
+
+#### ***Task-7***
+
+<img src="Figures/Lec-4/Task-7.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
+
+
+* $\text{Income Statement} = \text{Sales Revenue} - \text{COGS} - \text{Selling \& Admin Expenses} - \text{Interest Expense}$ <br> $= \$2{,}450{,}000 - \$1{,}200{,}500 - \$400{,}000 - \$45{,}000 = \boxed{\$804{,}500}$
+* $\text{Net Income (after 25\% Tax)} = \text{EBT} - (\text{EBT} \times 0.25)$ <br> $= \$804{,}500 - (\$804{,}500 \times 0.25) = \$804{,}500 - \$201{,}125 = \boxed{\$603{,}375}$
+  * We are not considered the ***<ins>Gain on debt Securities</ins>***, because he stated that it is <span style="background-color:#BE1E12;">**Unrealized**</span> 😉
+  
+    >[!IMPORTANT] Earning per Share (EPS) 
+    >EPS is calculated before **OCI** and based on **<ins>Net-Income only</ins>**
+
+* $\text{EPS} = \dfrac{\text{Net Income} - \text{Preferred Dividends}}{\text{Shares of Common Stock}} = \dfrac{\$603{,}375}{1{,}000{,}000} = \boxed{\$0.603}$
+* $\text{Total Comprehensive Income} = \text{Net Income} \pm \text{Other Comphrehensive Items (OCI)}$ <br> $= \$603{,}375 + \$88{,}000 = \boxed{\$691{,}375}$  ❌❌❌
+  * but those ***Gain on debt Securities*** shall not be **<ins>taxable</ins>**, because it is <span style="background-color:#BE1E12;">**Unrealized**</span>  ➡️ but the value of **Total-Comprehensive-Income** shall be ***<ins>Net-of-Tax</ins>*** (after Taxes).
+    * Therefore, the representation value of ***Gain on debt Securities*** shall be ***<ins>Net-of-Tax</ins>*** ➡️ 88,000 after 25% taxes
+  * $\text{OCI (Net-of-Tax)} = \text{Gain on Debt Securities} - (25\% \times \text{Gain on Debt Securities})$ <br> $= \$88{,}000 - (\$88{,}000 \times 0.25) = \$88{,}000 - \$22{,}000 = \boxed{\$66{,}000}$
+  * $\text{Total Comprehensive Income} = \text{Net Income} \pm \text{Other Comphrehensive Items (OCI)}$ <br> $= \$603{,}000 + \$66{,}000 = \boxed{\$669{,}000}$
+  * What if ***Loss on debt Securities*** ? also we shall remove the taxes, however the taxes here is good because it is reducing the taxes on me.
+
+#### ***Task-8***
+
+<img src="Figures/Lec-4/Task-8.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
+
+* $\text{Net Income} = \boxed{\$1{,}314{,}000}$
+* $\text{Foreign Currency Translation} = \$252{,}000$
+* $\text{Foreign Currency Translation (Net of Tax)} = \$252{,}000 \times 0.65 = \boxed{\$163{,}800}$
+* $\text{Gain on Debt Securities} = \$84{,}500$
+* $\text{Gain on Debt Securities (Net of Tax)} = \$84{,}500 \times 0.65 = \boxed{\$54{,}925}$
+* $\text{Comprehensive Income} = \text{Net Income} + \text{OCI (Foreign Currency Translation + Gain on Debt Securities)}$ <br> $= \$1{,}314{,}000 + \$163{,}800 + \$54{,}925 = \boxed{\$1{,}532{,}725}$
