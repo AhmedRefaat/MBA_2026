@@ -260,63 +260,20 @@
   * **Held2Maturity** investment at anytime can be re-classified to 2Trade and sell it, there is  no restriction.
 
 ```mermaid
-graph TB
-    IS["<b>Investment Securities</b><br>Classification & Reporting"]
-
-    TS["<b>Trading Securities</b><br>📈 Short-term / Active Trading<br>(Buy & Sell frequently)"]
-    AFS["<b>Available-for-Sale<br>Securities (AFS)</b><br>📊 Neither Trading nor HTM"]
-    HTM["<b>Held-to-Maturity<br>Securities (HTM)</b><br>🏦 Debt only / Hold until maturity"]
-
-    IS --> TS
-    IS --> AFS
-    IS --> HTM
-
-    subgraph " Income Statement (PnL)"
-        TS1["Reported at <b>Fair Value</b>"]
-        TS2["Unrealized Gains/Losses<br>→ recognized in <b>Net Income</b>"]
-        TS3["Realized Gains/Losses<br>→ recognized in <b>Net Income</b>"]
-    end
-
-    subgraph " Other Comprehensive Income (OCI)"
-        AFS1["Reported at <b>Fair Value</b>"]
-        AFS2["Unrealized Gains/Losses<br>→ recognized in <b>OCI</b><br>(Not in Net Income)"]
-        AFS3["Realized Gains/Losses<br>(when sold) → moved to<br><b>Net Income</b>"]
-    end
-
-    subgraph " Balance Sheet (at Cost)"
-        HTM1["Reported at <b>Amortized Cost</b><br>(Not Fair Value)"]
-        HTM2["No Unrealized Ga/Lo<br>recognized"]
-        HTM3["<b>Interest Revenue</b><br>→ recognized in<br><b>Income Statement</b>"]
-    end
-
-    TS --> TS1
-    TS --> TS2
-    TS --> TS3
-
-    AFS --> AFS1
-    AFS --> AFS2
-    AFS --> AFS3
-
-    HTM --> HTM1
-    HTM --> HTM2
-    HTM --> HTM3
-
-    style IS fill:#5B2C6F,stroke:#4A235A,color:#fff
-    style TS fill:#27AE60,stroke:#1E8449,color:#fff
-    style AFS fill:#E67E22,stroke:#BA4A00,color:#fff
-    style HTM fill:#2E86C1,stroke:#1B4F72,color:#fff
-
-    style TS1 fill:#82E0AA,stroke:#1E8449,color:#333
-    style TS2 fill:#82E0AA,stroke:#1E8449,color:#333
-    style TS3 fill:#82E0AA,stroke:#1E8449,color:#333
-
-    style AFS1 fill:#F9E79F,stroke:#B7950B,color:#333
-    style AFS2 fill:#F9E79F,stroke:#B7950B,color:#333
-    style AFS3 fill:#F9E79F,stroke:#B7950B,color:#333
-
-    style HTM1 fill:#AED6F1,stroke:#1B4F72,color:#333
-    style HTM2 fill:#AED6F1,stroke:#1B4F72,color:#333
-    style HTM3 fill:#AED6F1,stroke:#1B4F72,color:#333
+mindmap
+  root(("**Investment Securities**<br/>Classification & Reporting"))
+    ("**Trading Securities** 📈<br/>Short-term / Active Trading<br/>(Buy & Sell frequently)")
+      ["✅ Reported at **Fair Value**"]
+      ["✅ Unrealized Ga/Lo → **Net Income**"]
+      ["✅ Realized Ga/Lo → **Net Income**"]
+    ("**Available-for-Sale (AFS)** 📊<br/>Neither Trading nor HTM")
+      ["✅ Reported at **Fair Value**"]
+      ["📄 Unrealized Ga/Lo → **OCI**<br/>(Not in Net Income)"]
+      ["✅ Realized Ga/Lo (when sold)<br/>→ moved to **Net Income**"]
+    ("**Held-to-Maturity (HTM)** 🏦<br/>Debt only / Hold until maturity")
+      ["📋 Reported at **Amortized Cost**<br/>(Not Fair Value)"]
+      ["❌ No Unrealized Ga/Lo recognized"]
+      ["✅ **Interest Revenue**<br/>→ **Income Statement**"]
 ```
 
 * **Trading Securities**
