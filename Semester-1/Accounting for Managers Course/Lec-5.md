@@ -151,6 +151,9 @@
     | Accumulated Other Comprehensive Income | $\$30{,}000$ |
     | **Total Stockholders' Equity** | $\boxed{\$590{,}000}$ |
 
+---
+<div style="page-break-after: always;"></div>
+
 ### Treasury Stocks / اسهم الخزينة
 
 >[!IMPORTANT] Outstanding Stocks
@@ -174,7 +177,103 @@
   * Treasury-Stocks can be hold by the Co. for only 1-Year 
     * After 1-year, either to re-sell them or Delete them from your stocks.
 
+---
+<div style="page-break-after: always;"></div>
 
 ## Balance-Sheet (Statement of Financial Position / بيان المركز المالي)
+
+<img src="Figures/Lec-5/Apple-BalanceSheet.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
+
+* Balance-sheet is kind of snapshot of the current Accounts in a certain point of time.
+* It is based on the main Accounting Equation: 
+  $\boxed{\text{Assets} = \text{Liabilities} + \text{Equity}}$
+* **Assets**
+  * ***Current Assets / اصول متداولة***
+    * Those can be easily transformed into **<ins>Cash</ins>** in short term (i.e., 1-Year ➡️ ex: till end of the current year).
+      * Ex: <br>Cash<br>Short-term investments<br>Account-Receivable<br>Notes-Receivable (within current Year): cheque<br>Stocks<br>Inventory<br>Prepaid/Subscriptions (because it will expire within this year)
+  * ***Non-Current Assets / أصول غير متداولة***
+    * Those are the Assets that we acquire to have it for long-term (i.e., more than 1-Year)
+      * Ex: <br>**Long Term Investments**: *<ins>Placing this items here indicates to Reader that I won't sell this item within this Year, however more than an Year</ins>*<br>**Notes-Receivable**: Means that it will be collected after more than a Year.<br>**Fixed Assets**: Equipments, buildings, ➡️ Used in Business Operations. (Those are recorded under ***<ins>Booked-Values</ins>*** ➡️ CapEx).<br>**Right of Use / حق انتفاع**: Ex. Building that we rent to use for the business. Considering that pay the rent in Yearly basis./ if Paid as one shoot, then it is Prepaid.<br>**Intangible Assets**: Goodwill, Patets, Copyrights, Brandname, Franchise, license, Software
+        * <details><summary>CapEx</summary>
+            Those are the total Capital that we paid on a certain Equipement or Assets till it can be usable in the Business <br>Ex: Medical Machine in Hospital: to make it ready for usage, I needed to pay the following:<br>Transportation<br>Installation<br>Guarantee from Producer<br>Training Of Teams<br>...etc.
+          </details>
+        * <details><summary>Goodwill</summary>
+            The Value of my Brand - سمعة البراند بتاعى<br>This is evaluated during the evaluation of the whole company, this is only considered in case of consolidation استحواذ
+          </details>
+        * <details><summary>Inventory (4-Types) in case Co. is productio Co.n</summary>
+            Inventory can be: <br>Raw Material: Not processed at all.<br>Supplies: Material used in production and I can't re-sell it.<br>In-process Material: Material that we start its processing but not finished yet.<br>Consigned Goods: The products that I place it on shelves in another place and collects its price when it sold (يضاعة الامانة).
+            </details>
+
+* **Liabilities**
+  * ***<ins>Current Liabilities</ins>***
+    * Liabilities that shall be paid in Short-Term (<= 1-Year (i.e., Current Year))
+    * Ex: <br>**Account-Payable**<br>**Notes-Payable**<br>**unearned-revenue**<br>**Current maturity of long-term Loan** (current installment of Loan), however the remaining part is added on the Non-current 😉<br>**Bank over Draft / سحب عالمكشوف**: Exactly similar to individuals Credit-Cards but its interest is very high. But must be Paid within the year and its interest is doc in Interest-Expenses.
+  * ***<ins>Non-Current Liabilities</ins>***
+    * Liabilities that shall be paid in Long-Term (> 1-Year )
+      * Ex: <br>Capital Lease Obligation: like the Rent of the building.
+* Usually, you shall consider the matching between the **Current-Assets** and **Current-Liabilities**
+  * because this means that I can liquidize the **Current-Assets** so I can pay my **Current-Liabilities**
+  * This is an indicator to evaluate if the company will suffer from Cash-need or not.
+  * This indicator called **<ins>"Current Ratio"</ins>**: **`Current-Assets > Current-Liabilities`**
+    * if **Current-Assets** is very high means that I keep all my cash in cash, however i shall use more efficient.
+* Another indicator called **<ins>"Debt-to-Equity Ratio"</ins>**:
+  * $\boxed{\text{Debt-to-Equity Ratio} = \dfrac{\text{Total Liabilities}}{\text{Total Equity}}}$
+  * This indicates how much we depends on external **Debts vs Equity** 
+  * the common and accepted is 60:40 ➡️ Liabilities > 60%, means high risk, because Assets are financed via Liabilities (high risk)
+    * if Assets = 100M, and Liabilities = 60M, then it is ok. 
+
+### Exercise
+
+#### Task-13
+
+<img src="Figures/Lec-5/Task-13.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
+
+* **Current-Assets**:
+  | items | Dec-31 |
+  | --- | --- |
+  | Assets | |
+  | Current Assets | |
+  | Cash | 190,000|
+  | work in progress | 200,000 |
+  | Receivable (Net)  | 420,000|
+  | Prepaid insurance ➡️ by default current unless he stated  | 41,000|
+  | Raw material | 335,000 | 
+  | finished Goods | 170,000|
+  | Total Current Assets | 1,356,000|
+
+#### Task-14
+
+<img src="Figures/Lec-5/Task-14.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
+
+* Balance Sheet 
+  
+  | Item  | Dec-31 | Comment |
+  | --- | --- | --- |
+  |***Assets*** | |
+  | **Current Assets**| |
+  | Prepaid Insurance| 9,000 |
+  | Short Term Investments| 3,300 |
+  | Capital Stocks | 500,000|
+  | retained Earnings | 532,300|
+  | Cash | 122,000 | 
+  | Account-Receivable | 27,000 |
+  | **Total Current Assets** | |
+  |**Non-Current Assets** | |
+  | Office Equipments | 38,000 - 3200 = 34,800 | remove the Accumulated deprecation because each asset shall has its depreciation with it |
+  | Building | 288,000 - 46000 = 242,000 | |
+  | Land | 500,000 |
+  | Franchises | 200,000 |
+  | **Total Non-Current Assets** | |
+  |***Liabilities*** | |
+  | **Current Liabilities** | |
+  | Account Payable| 25,800|
+  | Deferred Revenue| 14,500 |
+  | Interest Payable|2,500 |
+  | Short-term Note Payable |9,000 |
+  | **Total Current Liabilities**| | 
+  | **Non-Current Liabilities** | |
+  | Long-term note Payable| 63,000 - 9,000 = 54,000  | Because there is a note below telling that 9,000 is short term 
+  | **Total Non-Current Liabilities**| | 
+  | ***Equity*** | |
 
 
