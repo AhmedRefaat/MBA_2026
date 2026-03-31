@@ -336,6 +336,9 @@ mindmap
   * $\text{Total Comprehensive Income} = \text{Net Income} \pm \text{Other Comphrehensive Items (OCI)}$ <br> $= \$603{,}000 + \$66{,}000 = \boxed{\$669{,}000}$
   * What if ***Loss on debt Securities*** ? also we shall remove the taxes, however the taxes here is good because it is reducing the taxes on me.
 
+---
+<div style="page-break-after: always;"></div>
+
 #### ***Task-8***
 
 <img src="Figures/Lec-4/Task-8.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
