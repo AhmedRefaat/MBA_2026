@@ -853,3 +853,87 @@ $$\colorbox{lightgreen}{$\text{DOL}_{Alt2} = \dfrac{176{,}000}{36{,}000} = \text
 > - عند 22,000 كوب: قريب جداً من التعادل (20,000) → DOL = 11 (خطر!)
 > - DOL = 11 يعني: لو المبيعات نزلت 9% بس → الربح بيختفي كله تقريباً!
 > - **الخلاصة:** كل ما قربت من نقطة التعادل، DOL بيزيد = الخطر بيزيد
+
+---
+<div style="page-break-after: always;"></div>
+
+### 📋 Lec-7 Quiz Summary — All Formulas & Rules
+
+---
+
+#### 1. Contribution Margin
+
+$$\colorbox{lightblue}{$\text{CM per unit} = \text{Price} - \text{Variable Cost per unit}$}$$
+
+$$\colorbox{lightblue}{$\text{CM Ratio} = \dfrac{\text{CM per unit}}{\text{Price}} = \dfrac{\text{Total CM}}{\text{Total Sales}}$}$$
+
+---
+
+#### 2. Break-Even Point (Profit = 0)
+
+$$\colorbox{lightblue}{$\text{Break-Even (units)} = \dfrac{\text{Fixed Costs}}{\text{CM per unit}}$}$$
+
+$$\colorbox{lightblue}{$\text{Break-Even (\$)} = \dfrac{\text{Fixed Costs}}{\text{CM Ratio}}$}$$
+
+---
+
+#### 3. Target Profit
+
+$$\colorbox{lightblue}{$\text{Units for Target Profit} = \dfrac{\text{FC} + \text{Target Profit}}{\text{CM per unit}}$}$$
+
+$$\colorbox{lightblue}{$\text{Sales (\$) for Target Profit} = \dfrac{\text{FC} + \text{Target Profit}}{\text{CM Ratio}}$}$$
+
+**With Tax:**
+
+$$\text{Pre-tax Profit} = \dfrac{\text{After-tax Profit}}{1 - \text{Tax Rate}}$$
+
+---
+
+#### 4. Margin of Safety
+
+$$\colorbox{lightblue}{$\text{MoS (\$)} = \text{Actual Sales} - \text{Break-Even Sales}$}$$
+
+$$\colorbox{lightblue}{$\text{MoS (\%)} = \dfrac{\text{Actual Sales} - \text{Break-Even Sales}}{\text{Actual Sales}}$}$$
+
+$$\text{Profit} = \text{MoS (\$)} \times \text{CM Ratio}$$
+
+---
+
+#### 5. Multi-Product (Weighted-Average CM)
+
+$$\colorbox{lightblue}{$\text{Weighted CM Ratio} = \dfrac{\text{Total CM (all products)}}{\text{Total Sales (all products)}}$}$$
+
+$$\text{Overall Break-Even} = \dfrac{\text{FC}}{\text{Weighted CM Ratio}}$$
+
+Then split back by each product's **sales-mix %**.
+
+> If the mix shifts toward **higher CM** product → BE **decreases** (good)
+> If the mix shifts toward **lower CM** product → BE **increases** (bad)
+
+---
+
+#### 6. Degree of Operating Leverage (DOL)
+
+$$\colorbox{lightblue}{$\text{DOL} = \dfrac{\text{CM}}{\text{NOI}} = \dfrac{\text{CM}}{\text{CM} - \text{FC}}$}$$
+
+$$\colorbox{lightblue}{$\text{\% Change in Profit} = \text{DOL} \times \text{\% Change in Sales}$}$$
+
+| Rule | Meaning |
+|:---|:---|
+| DOL = 1 | No fixed costs → profit moves 1:1 with sales |
+| DOL > 1 | Fixed costs amplify profit changes |
+| Higher DOL | More risk + more reward (double-edged sword) |
+| Closer to BE | DOL gets **larger** → more dangerous |
+
+---
+
+#### 7. Indifference Point (Two Alternatives)
+
+$$\colorbox{lightblue}{$CM_1 \times Q - FC_1 = CM_2 \times Q - FC_2$}$$
+
+$$Q = \dfrac{FC_1 - FC_2}{CM_1 - CM_2}$$
+
+| Sales Level | Choose |
+|:---|:---|
+| Above indifference point | Higher FC / Higher CM alternative |
+| Below indifference point | Lower FC / Lower CM alternative |
