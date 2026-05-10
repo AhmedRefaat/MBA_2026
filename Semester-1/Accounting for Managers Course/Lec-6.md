@@ -691,3 +691,98 @@ $$
 | **Contribution Margin** | **$1,716,800** |
 | Less: **Fixed Costs** | **(542,800)** |
 | <span style="background-color:#36CB2F;">**Net Operating Income**</span> | <span style="background-color:#36CB2F;">**$1,174,000**</span> |
+
+---
+<div style="page-break-after: always;"></div>
+
+### 📋 Lec-6 Quiz Summary — All Rules & Formulas
+
+---
+
+#### 1. Cost Classification — Product vs Period
+
+| | **Product Cost (Manufacturing)** | **Period Cost (Non-Manufacturing)** |
+|:---|:---|:---|
+| **Includes** | DM + DL + MOH | Selling + Admin expenses |
+| **Appears in Income Stmt** | Only when product is **SOLD** (as COGS) | **Immediately** in the period incurred |
+| **If unsold** | Sits as **Inventory** on Balance Sheet | Still expensed — cannot be deferred |
+| **Keyword clues** | Factory, production, manufacturing | Marketing, admin, delivery, sales commission |
+
+---
+
+#### 2. Components of Product Cost
+
+$$\colorbox{lightblue}{$\text{Product Cost} = \text{Direct Materials} + \text{Direct Labor} + \text{Manufacturing Overhead}$}$$
+
+$$\colorbox{lightblue}{$\text{Manufacturing Overhead} = \text{Product Cost} - (\text{DM} + \text{DL})$}$$
+
+| Component | Traceable? | Examples |
+|:---|:---:|:---|
+| **Direct Materials** | ✅ | Wood, flour, steel — physically in the product |
+| **Direct Labor** | ✅ | Worker wages on the production line |
+| **Manufacturing OH** | ❌ | Factory rent, utilities, depreciation, indirect labor |
+
+---
+
+#### 3. Variable vs Fixed Costs
+
+| | **Variable Cost** | **Fixed Cost** |
+|:---|:---|:---|
+| **Behavior** | Changes with activity level | Stays constant regardless of activity |
+| **Per unit** | Constant per unit | Decreases per unit as volume rises |
+| **Total** | Increases with volume | Stays the same |
+| **Examples** | DM, DL, sales commissions | Rent, salary, depreciation, insurance |
+
+---
+
+#### 4. COGS vs Total Variable Cost (DON'T MIX!)
+
+$$\colorbox{lightblue}{$\text{COGS} = \text{All Manufacturing Costs (Variable Mfg + Fixed Mfg)}$}$$
+
+$$\colorbox{lightyellow}{$\text{Total Variable Cost} = \text{All Variable Costs (Mfg + Non-Mfg)}$}$$
+
+> COGS includes Fixed MOH. Total Variable Cost excludes Fixed MOH but includes Variable Selling.
+
+---
+
+#### 5. Two Income Statements
+
+**Traditional (for outsiders):**
+
+$$\text{Sales} - \text{COGS} = \text{Gross Profit} - \text{S\&A Expenses} = \text{Net Operating Income}$$
+
+**Contribution Format (for managers):**
+
+$$\text{Sales} - \text{Total Variable Cost} = \text{Contribution Margin} - \text{Fixed Costs} = \text{Net Operating Income}$$
+
+> Both give the **same NOI** (when all production is sold). The difference is how costs are grouped.
+
+---
+
+#### 6. Contribution Margin
+
+$$\colorbox{lightblue}{$\text{CM} = \text{Sales} - \text{Total Variable Cost}$}$$
+
+$$\colorbox{lightblue}{$\text{CM per unit} = \text{Price} - \text{Variable Cost per unit}$}$$
+
+| CM vs FC | Result |
+|:---|:---|
+| CM > FC | **Profit** |
+| CM = FC | **Break-Even** |
+| CM < FC | **Loss** |
+
+---
+
+#### 7. Quick Classification Rules for Exams
+
+| Clue Word | Classification |
+|:---|:---|
+| "Factory ___" (rent, supplies, depreciation) | **Product Cost → Manufacturing OH** |
+| "Direct ___" (materials, labor) | **Product Cost → Direct** |
+| "Indirect labor" / "Indirect materials" | **Product Cost → Manufacturing OH** |
+| "Sales ___" / "Marketing" / "Advertising" | **Period Cost** |
+| "Administrative ___" | **Period Cost** |
+| "Commission" (sales) | **Period Cost** |
+| "Property tax — factory" | **Product Cost → Manufacturing OH** |
+| "Depreciation — production equipment" | **Product Cost → Manufacturing OH** |
+| "Depreciation — office equipment" | **Period Cost** |
