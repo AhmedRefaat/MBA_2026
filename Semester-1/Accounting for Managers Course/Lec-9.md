@@ -483,3 +483,9 @@ $$\text{ABC Cost for Product} = \sum (\text{Activity Rate} \times \text{Product'
 2. Multiply each rate × product's actual activity
 3. Sum all pools = Total ABC overhead for product
 4. Product Margin = Sales − DM − DL − Shipping − ABC OH
+
+
+<img src="Figures/Lec-9/Task-11.png" alt="Types of OH Rates" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
+
+* There are some Customers who shall pay less because they are consuming resources less than other for their orders.
+* Becuase those who are paying more (over priced), or the company itself has a problem in pricing.

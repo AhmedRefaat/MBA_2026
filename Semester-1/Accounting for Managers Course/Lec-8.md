@@ -4,7 +4,7 @@
 
 ### Relevant and Irrelevant Costs
 
-`<img src="Figures/Lec-8/Relevant irrelevant costs.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Relevant irrelevant costs.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
 > When making a decision between two alternatives, **not all costs matter**. Only the costs that **change** between the options are relevant to your decision.
 
@@ -77,7 +77,7 @@ These are costs that **DON'T change** no matter what you decide — ignore them!
 - It's not a cost you pay — it's a gain you **miss out on**.
 - يعني تكلفة الفرصة = اللي **ضاع منك** لما اخترت حاجة بدل التانية. لو فتحت محل بدل ما تستثمر في الأسهم، الربح اللي كنت هتاخده من الأسهم دي هي تكلفة الفرصة.
 
-### Decision Making using `<span style="background-color:#36CB2F;"><u>`Contribution Margin`</u>` Approach
+### Decision Making using <span style="background-color:#36CB2F;"><u>Contribution Margin</u></span> Approach
 
 `<img src="Figures/Lec-8/DecisionMaking using CM.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
 
@@ -104,11 +104,11 @@ $$
 
 #### Adding/Dropping Segment Example
 
-`<img src="Figures/Lec-8/Add-Drop Segment Ex.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Add-Drop Segment Ex.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
 |                                                                                         Investigation Finding 1                                                                                         |                                                                                         Investigation Finding 2                                                                                         |                                                                                                 Solution                                                                                                 |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| `<img src="Figures/Lec-8/Add-Drop Segment Ex-P2.png" alt="Step 2" width="100%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">` | `<img src="Figures/Lec-8/Add-Drop Segment Ex-P3.png" alt="Step 3" width="100%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">` | `<img src="Figures/Lec-8/Add-Drop Segment Ex-P4.png" alt="Step 4" width="100%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">` |
+| <img src="Figures/Lec-8/Add-Drop Segment Ex-P2.png" alt="Step 2" width="100%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);"> | <img src="Figures/Lec-8/Add-Drop Segment Ex-P3.png" alt="Step 3" width="100%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);"> | `<img src="Figures/Lec-8/Add-Drop Segment Ex-P4.png" alt="Step 4" width="100%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);"> |
 |                                                                      FC overhead & admin →**reallocated** (won't disappear)                                                                      |                                                                            Equipment →**no resale value** (sunk cost)                                                                            |                                                                           CM Lost\$300K > FC Avoided \$260K → **Keep!**                                                                           |
 
 > **The Trap:** Digital Watches shows a **\$100,000 loss**. The naive answer is "drop it!" But that might be WRONG.
@@ -216,7 +216,7 @@ $$
 >   3. قارن: CM المفقود أكبر ولا FC الموفر أكبر؟
 >   4. لو CM > FC → **متشيلش!** (حتى لو شكله خسران في التقرير)
 
-### Decision Making using `<span style="background-color:#BCB410;"><u>`Comparative Income`</u>` Approach
+### Decision Making using <span style="background-color:#BCB410;"><u>Comparative Income</u></span> Approach
 
 <img src="Figures/Lec-8/ComparativeIncomeApprach-p1.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 <img src="Figures/Lec-8/ComparativeIncomeApprach-p2.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
@@ -273,8 +273,8 @@ $$
 >
 > - بالعربي: الطريقة دي بتعمل قائمة دخل كاملة لكل سيناريو (خلي المنتج / شيله) وبتقارن. النتيجة واحدة: الشركة هتخسر 40,000 زيادة لو شالت الساعات. الفرق إن الطريقة دي بتوريك الصورة الكاملة — فين الفلوس رايحة وفين جاية.
 
-`<img src="Figures/Lec-8/Allocated FC.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
-`<img src="Figures/Lec-8/Allocated FC-2.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Allocated FC.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
+<img src="Figures/Lec-8/Allocated FC-2.png" alt="Single Step" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
 ---
 
@@ -398,7 +398,7 @@ A **"Make or Buy" decision** is when a company decides whether to **manufacture*
 
 > A company involved in more than one activity in the entire value chain is called `<span style="color:#B22222">`**vertically integrated**. The decision to carry out an activity internally rather than buy externally from a supplier = **"Make or Buy" decision**.
 
-`<img src="Figures/Lec-8/Make-Buy Decision-p1.png" alt="Make or Buy Concept" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Make-Buy Decision-p1.png" alt="Make or Buy Concept" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
 > **بالعربي:** قرار "اصنع أو اشتري" = هل الشركة تصنع الجزء بنفسها ولا تشتريه من مورّد خارجي؟ نقارن التكلفة القابلة للتجنب (لو صنعنا) مع سعر الشراء من بره.
 
@@ -420,7 +420,7 @@ A **"Make or Buy" decision** is when a company decides whether to **manufacture*
 | General factory overhead          |      \$10      |
 | **Total Unit Product Cost** | **\$30** |
 
-`<img src="Figures/Lec-8/Make-Buy Decision-p2.png" alt="Essex Example Data" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Make-Buy Decision-p2.png" alt="Essex Example Data" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
 **Investigation findings (key facts):**
 
@@ -432,7 +432,7 @@ $$
 \colorbox{lightyellow}{Should the company stop making Part 4A and buy it from the outside supplier?}
 $$
 
-`<img src="Figures/Lec-8/Make-Buy Decision-p3.png" alt="Investigation Findings" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Make-Buy Decision-p3.png" alt="Investigation Findings" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
 ---
 
@@ -456,9 +456,9 @@ $$
 | ~~Allocated gen. factory OH~~ | ~~\$10~~ |         —         |                    |
 | **Total Relevant Cost**  |          | **\$340,000** | **\$500,000** |
 
-`<img src="Figures/Lec-8/Make-Buy Decision-p4.png" alt="Solution Table" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Make-Buy Decision-p4.png" alt="Solution Table" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
-`<img src="Figures/Lec-8/Make-Buy Decision-p5.png" alt="Irrelevant Costs Note" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Make-Buy Decision-p5.png" alt="Irrelevant Costs Note" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
 ---
 
@@ -472,17 +472,17 @@ $$
 >
 > The company saves **\$160,000** by making internally.
 
-`<img src="Figures/Lec-8/Make-Buy Decision-p6.png" alt="Final Decision" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Make-Buy Decision-p6.png" alt="Final Decision" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
 ---
 
 #### Opportunity Cost in Make or Buy Decisions
 
-`<img src="Figures/Lec-8/Opportunity Cost-2.png" alt="Opportunity Cost" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">`
+<img src="Figures/Lec-8/Opportunity Cost-2.png" alt="Opportunity Cost" width="60%" style="border: 3px solid #4a90d9; border-radius: 10px; padding: 6px; box-shadow: 0 4px 12px rgba(7, 167, 225, 0.63);">
 
 **What if the space used to make Part 4A had an alternative use?**
 
-An `<span style="color:#B22222">`**opportunity cost** is the **benefit that is foregone** (given up) as a result of pursuing some course of action. It is **NOT** an actual cash outlay and is **NOT recorded** in the formal accounting records.
+An <span style="color:#B22222">**opportunity cost** </span> is the **benefit that is foregone** (given up) as a result of pursuing some course of action. It is **NOT** an actual cash outlay and is **NOT recorded** in the formal accounting records.
 
 > [!IMPORTANT] Opportunity Cost in Make or Buy
 > If the factory space currently used to make Part 4A could be used for **something else** (e.g., produce another profitable product), then:
